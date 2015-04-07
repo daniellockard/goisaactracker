@@ -1,0 +1,2311 @@
+[
+   {
+      "name":"The Sad Onion",
+      "shown":true,
+      "tears":"0.7",
+      "text":"",
+      "id":"001"
+   },
+   {
+      "delay":"3",
+      "delayx":"2.1",
+      "name":"The Inner Eye",
+      "shown":true,
+      "text":"",
+      "id":"002"
+   },
+   {
+      "name":"Spoon Bender",
+      "shown":true,
+      "text":"",
+      "id":"003"
+   },
+   {
+      "dmg":"0.5",
+      "dmgx":"1.5",
+      "name":"Cricket's Head",
+      "shown":true,
+      "text":"",
+      "id":"004"
+   },
+   {
+      "height":"1",
+      "name":"My Reflection",
+      "range":"1.5",
+      "shown":true,
+      "text":"Boomerang Tears",
+      "id":"005"
+   },
+   {
+      "height":"0.45",
+      "name":"Number One",
+      "range":"-15.78",
+      "shown":true,
+      "tears":"1.5",
+      "text":"",
+      "id":"006"
+   },
+   {
+      "dmg":"1",
+      "name":"Blood of the Martyr",
+      "shown":true,
+      "text":"",
+      "id":"007"
+   },
+   {
+      "name":"Brother Bobby",
+      "shown":true,
+      "text":"",
+      "id":"008"
+   },
+   {
+      "name":"Skatole",
+      "shown":true,
+      "text":"",
+      "id":"009"
+   },
+   {
+      "name":"Halo of Flies",
+      "shown":true,
+      "text":"",
+      "id":"010"
+   },
+   {
+      "name":"1UP",
+      "shown":true,
+      "text":"",
+      "id":"011"
+   },
+   {
+      "dmg":"0.3",
+      "dmgx":"1.5",
+      "health":"1",
+      "height":"0.5",
+      "name":"Magic Mushroom",
+      "range":"5.25",
+      "shown":true,
+      "speed":"0.3",
+      "text":"",
+      "id":"012"
+   },
+   {
+      "name":"The Virus",
+      "shown":true,
+      "text":"",
+      "id":"013"
+   },
+   {
+      "height":"0.5",
+      "name":"Roid Rage",
+      "range":"5.25",
+      "shown":true,
+      "speed":"0.6",
+      "text":"",
+      "id":"014"
+   },
+   {
+      "name":"<3",
+      "shown":false,
+      "text":"",
+      "id":"015"
+   },
+   {
+      "health":"2",
+      "name":"Raw Liver",
+      "shown":false,
+      "text":"Full Heal",
+      "id":"016"
+   },
+   {
+      "name":"Skeleton Key",
+      "shown":true,
+      "text":"",
+      "id":"017"
+   },
+   {
+      "name":"A Dollar",
+      "shown":true,
+      "text":"",
+      "id":"018"
+   },
+   {
+      "name":"Boom!",
+      "shown":true,
+      "text":"",
+      "id":"019"
+   },
+   {
+      "name":"Transcendence",
+      "shown":true,
+      "text":"",
+      "id":"020"
+   },
+   {
+      "name":"The Compass",
+      "shown":true,
+      "text":"",
+      "id":"021"
+   },
+   {
+      "name":"Lunch",
+      "shown":false,
+      "text":"",
+      "id":"022"
+   },
+   {
+      "health":"1",
+      "name":"Dinner",
+      "shown":false,
+      "text":"",
+      "id":"023"
+   },
+   {
+      "health":"1",
+      "name":"Dessert",
+      "shown":false,
+      "text":"",
+      "id":"024"
+   },
+   {
+      "health":"1",
+      "name":"Breakfast",
+      "shown":false,
+      "text":"",
+      "id":"025"
+   },
+   {
+      "health":"1",
+      "name":"Rotten Meat",
+      "shown":false,
+      "text":"",
+      "id":"026"
+   },
+   {
+      "name":"Wooden Spoon",
+      "shown":true,
+      "speed":"0.3",
+      "text":"",
+      "id":"027"
+   },
+   {
+      "name":"The Belt",
+      "shown":true,
+      "speed":"0.3",
+      "text":"",
+      "id":"028"
+   },
+   {
+      "height":"0.5",
+      "name":"Mom's Underwear",
+      "range":"5.25",
+      "shown":true,
+      "text":"",
+      "id":"029"
+   },
+   {
+      "height":"0.5",
+      "name":"Mom's Heels",
+      "range":"5.25",
+      "shown":true,
+      "text":"",
+      "id":"030"
+   },
+   {
+      "height":"0.5",
+      "name":"Mom's Lipstick",
+      "range":"5.25",
+      "shown":true,
+      "text":"",
+      "id":"031"
+   },
+   {
+      "name":"Wire Coat Hanger",
+      "shown":true,
+      "tears":"0.7",
+      "text":"",
+      "id":"032"
+   },
+   {
+      "name":"The Bible",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"033"
+   },
+   {
+      "name":"The Book of Belial",
+      "shown":false,
+      "text":"2 dmg, x1.5 dmg with blood of the martyr",
+      "space":true,
+      "id":"034"
+   },
+   {
+      "name":"The Necronomicon",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"035"
+   },
+   {
+      "name":"The Poop",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"036"
+   },
+   {
+      "name":"Mr. Boom",
+      "shown":false,
+      "text":"110 dmg",
+      "space":true,
+      "id":"037"
+   },
+   {
+      "name":"Tammy's Head",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"038"
+   },
+   {
+      "name":"Mom's Bra",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"039"
+   },
+   {
+      "name":"Kamikaze",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"040"
+   },
+   {
+      "name":"Mom's Pad:",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"041"
+   },
+   {
+      "name":"Bob's Rotten Head",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"042"
+   },
+   {
+      "name":"Teleport",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"044"
+   },
+   {
+      "name":"Yum Heart",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"045"
+   },
+   {
+      "luck":"1",
+      "name":"Lucky Foot",
+      "shown":true,
+      "text":"Other luck-related benefits",
+      "id":"046"
+   },
+   {
+      "name":"Doctor's Remote",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"047"
+   },
+   {
+      "name":"Cupid's Arrow",
+      "shown":true,
+      "text":"",
+      "id":"048"
+   },
+   {
+      "name":"Shoop Da Whoop",
+      "shown":false,
+      "text":"full laser deals damage stat * 7 dmg",
+      "space":true,
+      "id":"049"
+   },
+   {
+      "dmg":"1",
+      "name":"Steven",
+      "shown":true,
+      "text":"",
+      "id":"050"
+   },
+   {
+      "dmg":"1",
+      "name":"Pentagram",
+      "shown":true,
+      "text":"",
+      "id":"051"
+   },
+   {
+      "delayx":"2.5",
+      "dmgx":"3",
+      "name":"Dr. Fetus",
+      "shown":true,
+      "text":"Bomb shots",
+      "id":"052"
+   },
+   {
+      "name":"Magneto",
+      "shown":true,
+      "text":"",
+      "id":"053"
+   },
+   {
+      "name":"Treasure Map",
+      "shown":true,
+      "text":"",
+      "id":"054"
+   },
+   {
+      "name":"Mom's Eye",
+      "shown":true,
+      "text":"",
+      "id":"055"
+   },
+   {
+      "name":"Lemon Mishap",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"056"
+   },
+   {
+      "name":"Distant Admiration",
+      "shown":true,
+      "text":"",
+      "id":"057"
+   },
+   {
+      "name":"Book of Shadows",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"058"
+   },
+   {
+      "name":"The Ladder",
+      "shown":true,
+      "text":"",
+      "id":"060"
+   },
+   {
+      "name":"Charm of the Vampire",
+      "shown":true,
+      "text":"",
+      "id":"062"
+   },
+   {
+      "name":"The Battery",
+      "shown":true,
+      "text":"",
+      "id":"063"
+   },
+   {
+      "name":"Steam Sale",
+      "shown":true,
+      "text":"",
+      "id":"064"
+   },
+   {
+      "name":"Anarchist's Cookbook",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"065"
+   },
+   {
+      "name":"The Hourglass",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"066"
+   },
+   {
+      "name":"Sister Maggy",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"067"
+   },
+   {
+      "name":"Technology",
+      "shown":true,
+      "text":"",
+      "id":"068"
+   },
+   {
+      "name":"Chocolate Milk",
+      "shown":true,
+      "text":"charge tears, max is 4x dmg",
+      "id":"069"
+   },
+   {
+      "dmg":"1",
+      "name":"Growth Hormones",
+      "shown":true,
+      "speed":"0.4",
+      "text":"",
+      "id":"070"
+   },
+   {
+      "height":"1.5",
+      "name":"Mini Mush",
+      "range":"-4.25",
+      "shown":true,
+      "speed":"0.3",
+      "text":"",
+      "id":"071"
+   },
+   {
+      "name":"Rosary",
+      "shown":true,
+      "soulhearts":"3",
+      "text":"puts the bible into lots of item pools",
+      "id":"072"
+   },
+   {
+      "name":"Cube of Meat",
+      "shown":true,
+      "text":"",
+      "id":"073"
+   },
+   {
+      "name":"A Quarter",
+      "shown":true,
+      "text":"",
+      "id":"074"
+   },
+   {
+      "name":"PhD",
+      "shown":true,
+      "text":"",
+      "id":"075"
+   },
+   {
+      "name":"X-Ray Vision",
+      "shown":true,
+      "text":"",
+      "id":"076"
+   },
+   {
+      "name":"My Little Unicorn",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"077"
+   },
+   {
+      "name":"Book of Revelations",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"078"
+   },
+   {
+      "dmg":"1",
+      "name":"The Mark",
+      "shown":true,
+      "speed":"0.2",
+      "text":"",
+      "id":"079"
+   },
+   {
+      "dmg":"0.5",
+      "name":"The Pact",
+      "shown":true,
+      "tears":"0.7",
+      "text":"2 Soul Hearts",
+      "id":"080"
+   },
+   {
+      "name":"Dead Cat",
+      "shown":true,
+      "text":"",
+      "id":"081"
+   },
+   {
+      "name":"Lord of the Pit",
+      "shown":true,
+      "text":"",
+      "id":"082"
+   },
+   {
+      "dmg":"0.7",
+      "name":"The Nail",
+      "shown":false,
+      "speed":"-0.18",
+      "text":"+1 soul heart, crush rocks",
+      "space":true,
+      "id":"083"
+   },
+   {
+      "name":"We Need To Go Deeper",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"084"
+   },
+   {
+      "name":"Deck of Cards",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"085"
+   },
+   {
+      "name":"Monstro's Tooth",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"086"
+   },
+   {
+      "name":"Loki's Horns",
+      "shown":true,
+      "text":"",
+      "id":"087"
+   },
+   {
+      "name":"Little Chubby",
+      "shown":true,
+      "text":"",
+      "id":"088"
+   },
+   {
+      "name":"Spider Bite",
+      "shown":true,
+      "text":"based on luck",
+      "id":"089"
+   },
+   {
+      "dmg":"1",
+      "name":"The Small Rock",
+      "shown":true,
+      "text":"",
+      "id":"090"
+   },
+   {
+      "name":"Spelunker Hat",
+      "shown":true,
+      "text":"",
+      "id":"091"
+   },
+   {
+      "health":"1",
+      "name":"Super Bandage",
+      "shown":true,
+      "soulhearts":"2",
+      "text":"",
+      "id":"092"
+   },
+   {
+      "name":"The Gamekid",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"093"
+   },
+   {
+      "name":"Sack of Pennies",
+      "shown":true,
+      "text":"",
+      "id":"094"
+   },
+   {
+      "name":"Robo-Baby",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"095"
+   },
+   {
+      "name":"Little C.H.A.D.",
+      "shown":true,
+      "text":"",
+      "id":"096"
+   },
+   {
+      "name":"The Book of Sin",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"097"
+   },
+   {
+      "name":"The Relic",
+      "shown":true,
+      "text":"",
+      "id":"098"
+   },
+   {
+      "name":"Little Gish",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"099"
+   },
+   {
+      "name":"Little Steven",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"100"
+   },
+   {
+      "dmg":"0.3",
+      "health":"1",
+      "height":"0.5",
+      "name":"The Halo",
+      "range":"0.25",
+      "shown":true,
+      "speed":"0.3",
+      "tears":"0.2",
+      "text":"",
+      "id":"101"
+   },
+   {
+      "name":"Mom's Bottle of Pills",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"102"
+   },
+   {
+      "name":"The Common Cold",
+      "shown":true,
+      "text":"",
+      "id":"103"
+   },
+   {
+      "name":"The Parasite",
+      "shown":true,
+      "text":"split shots do x0.25 dmg",
+      "id":"104"
+   },
+   {
+      "name":"The D6",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"105"
+   },
+   {
+      "name":"Mr. Mega",
+      "shown":true,
+      "text":"bombs do 110 dmg instead of 50",
+      "id":"106"
+   },
+   {
+      "name":"Pinking Shears",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"107"
+   },
+   {
+      "name":"The Wafer",
+      "shown":true,
+      "text":"",
+      "id":"108"
+   },
+   {
+      "name":"Money = Power",
+      "shown":true,
+      "text":"0.04 dmg per penny",
+      "id":"109"
+   },
+   {
+      "name":"Mom's Contacts",
+      "shown":true,
+      "text":"",
+      "id":"110"
+   },
+   {
+      "name":"The Bean",
+      "shown":false,
+      "text":"26 dmg",
+      "space":true,
+      "id":"111"
+   },
+   {
+      "name":"Guardian Angel",
+      "shown":true,
+      "text":"",
+      "id":"112"
+   },
+   {
+      "name":"Demon Baby",
+      "shown":true,
+      "text":"3 dmg",
+      "id":"113"
+   },
+   {
+      "name":"Mom's Knife",
+      "shown":true,
+      "text":"",
+      "id":"114"
+   },
+   {
+      "name":"Ouija Board",
+      "shown":true,
+      "text":"",
+      "id":"115"
+   },
+   {
+      "name":"9 Volt",
+      "shown":true,
+      "text":"",
+      "id":"116"
+   },
+   {
+      "name":"Dead Bird",
+      "shown":true,
+      "text":"",
+      "id":"117"
+   },
+   {
+      "delayx":"3",
+      "name":"Brimstone",
+      "shown":true,
+      "text":"blood laser, 13 hits",
+      "id":"118"
+   },
+   {
+      "health":"1",
+      "name":"Blood Bag",
+      "shown":false,
+      "text":"",
+      "id":"119"
+   },
+   {
+      "name":"Odd Mushroom (Thin)",
+      "shown":true,
+      "speed":"0.3",
+      "tears":"1.7",
+      "text":"dmg * 0.9 - 0.4",
+      "id":"120"
+   },
+   {
+      "dmg":"0.3",
+      "health":"1",
+      "height":"0.5",
+      "name":"Odd Mushroom (Thick)",
+      "range":"0.25",
+      "shown":true,
+      "speed":"-0.1",
+      "text":"",
+      "id":"121"
+   },
+   {
+      "dmg":"1.5",
+      "name":"Whore of Babylon",
+      "shown":true,
+      "speed":"0.3",
+      "text":"only works with low red health",
+      "id":"122"
+   },
+   {
+      "name":"Monster Manual",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"123"
+   },
+   {
+      "name":"Dead Sea Scrolls",
+      "shown":false,
+      "text":"random space item effect",
+      "space":true,
+      "id":"124"
+   },
+   {
+      "name":"Bobby - Bomb",
+      "shown":true,
+      "text":"+5 bombs, homing bombs",
+      "id":"125"
+   },
+   {
+      "name":"Razor Blade",
+      "shown":false,
+      "text":"1.2 dmg per use",
+      "space":true,
+      "id":"126"
+   },
+   {
+      "name":"Forget Me Now",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"127"
+   },
+   {
+      "name":"Forever Alone",
+      "shown":true,
+      "text":"",
+      "id":"128"
+   },
+   {
+      "health":"2",
+      "name":"Bucket of Lard",
+      "shown":true,
+      "speed":"-0.2",
+      "text":"",
+      "id":"129"
+   },
+   {
+      "name":"A Pony",
+      "shown":false,
+      "text":"flying, min speed 1.5",
+      "space":true,
+      "id":"130"
+   },
+   {
+      "name":"Bomb Bag",
+      "shown":true,
+      "text":"drops a bomb every 2 rooms",
+      "id":"131"
+   },
+   {
+      "name":"A Lump of Coal",
+      "shown":true,
+      "text":"damage based on distance",
+      "id":"132"
+   },
+   {
+      "name":"Guppy's Paw",
+      "shown":true,
+      "text":"turn 1 heart container to 3 soul hearts",
+      "space":true,
+      "id":"133"
+   },
+   {
+      "name":"Guppy's Tail",
+      "shown":true,
+      "text":"spawn more gold chests",
+      "id":"134"
+   },
+   {
+      "name":"IV Bag",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"135"
+   },
+   {
+      "name":"Best Friend",
+      "shown":false,
+      "text":"110 dmg explosion",
+      "id":"136"
+   },
+   {
+      "name":"Remote Detonator",
+      "shown":false,
+      "text":"5 bombs",
+      "space":true,
+      "id":"137"
+   },
+   {
+      "dmg":"0.3",
+      "health":"1",
+      "name":"Stigmata",
+      "shown":true,
+      "text":"",
+      "id":"138"
+   },
+   {
+      "name":"Mom's Purse",
+      "shown":true,
+      "text":"",
+      "id":"139"
+   },
+   {
+      "name":"Bob's Curse",
+      "shown":true,
+      "text":"5 bombs",
+      "id":"140"
+   },
+   {
+      "name":"Pageant Boy",
+      "shown":true,
+      "text":"",
+      "id":"141"
+   },
+   {
+      "name":"Scapular",
+      "shown":true,
+      "text":"once per room, when you're hit to 1/2 red heart, gain a soul heart",
+      "id":"142"
+   },
+   {
+      "name":"Speed Ball",
+      "shotspeed":"0.2",
+      "shown":true,
+      "speed":"0.3",
+      "text":"",
+      "id":"143"
+   },
+   {
+      "name":"Bum Friend",
+      "shown":true,
+      "text":"turns floor money into other pickups",
+      "id":"144"
+   },
+   {
+      "name":"Guppy's Head",
+      "shown":true,
+      "text":"spawn 2-4 blue flies",
+      "space":true,
+      "id":"145"
+   },
+   {
+      "name":"Prayer Card",
+      "shown":false,
+      "text":"spawn eternal heart",
+      "space":true,
+      "id":"146"
+   },
+   {
+      "name":"Notched Axe",
+      "shown":false,
+      "text":"can break all the rocks and secret doors in the room",
+      "space":true,
+      "id":"147"
+   },
+   {
+      "name":"Infestation",
+      "shown":true,
+      "text":"blue flies spawn when hit",
+      "id":"148"
+   },
+   {
+      "delay":"10",
+      "delayx":"2",
+      "height":"13",
+      "name":"Ipecac",
+      "shown":true,
+      "text":"Explosive shots, +40 flat dmg",
+      "id":"149"
+   },
+   {
+      "name":"Tough Love",
+      "shown":true,
+      "text":"teeth do x3.2 dmg, based on luck",
+      "id":"150"
+   },
+   {
+      "name":"The Mulligan",
+      "shown":true,
+      "text":"1/6 chance for blue fly on hit, effectively x1.33 damage",
+      "id":"151"
+   },
+   {
+      "dmgx":"0.65",
+      "name":"Technology 2",
+      "shown":true,
+      "text":"",
+      "id":"152"
+   },
+   {
+      "delay":"3",
+      "delayx":"2.1",
+      "name":"Mutant Spider",
+      "shown":true,
+      "text":"",
+      "id":"153"
+   },
+   {
+      "name":"Chemical Peel",
+      "shown":true,
+      "text":"Every other shot +2 flat dmg",
+      "id":"154"
+   },
+   {
+      "name":"The Peeper",
+      "shown":true,
+      "text":"",
+      "id":"155"
+   },
+   {
+      "name":"Habit",
+      "shown":true,
+      "text":"recharge one tick of space charge when hit",
+      "id":"156"
+   },
+   {
+      "name":"Bloody Lust",
+      "shown":true,
+      "text":"more damage for the floor when you're hit, up to 6.5 dmg",
+      "id":"157"
+   },
+   {
+      "name":"Crystal Ball",
+      "shown":false,
+      "text":"mapping plus card, rune, or soul heart",
+      "space":true,
+      "id":"158"
+   },
+   {
+      "name":"Spirit of the Night",
+      "shown":true,
+      "text":"flight, spectral",
+      "id":"159"
+   },
+   {
+      "name":"Crack The Sky",
+      "shown":false,
+      "text":"each beam does 20 dmg",
+      "space":true,
+      "id":"160"
+   },
+   {
+      "name":"Ankh",
+      "shown":true,
+      "text":"respawn as blue baby",
+      "id":"161"
+   },
+   {
+      "name":"Celtic Cross",
+      "shown":true,
+      "text":"shield when hit, based on luck",
+      "id":"162"
+   },
+   {
+      "name":"Ghost Baby",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"163"
+   },
+   {
+      "name":"The Candle",
+      "shown":false,
+      "text":"up to 184 dmg",
+      "space":true,
+      "id":"164"
+   },
+   {
+      "dmg":"1",
+      "name":"Cat-O-Nine-Tails",
+      "shotspeed":"0.23",
+      "shown":true,
+      "text":"",
+      "id":"165"
+   },
+   {
+      "name":"D20",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"166"
+   },
+   {
+      "name":"Harlequin Baby",
+      "shown":true,
+      "text":"each tear 4 dmg",
+      "id":"167"
+   },
+   {
+      "name":"Epic Fetus",
+      "shown":true,
+      "text":"x20 damage ",
+      "id":"168"
+   },
+   {
+      "delay":"3",
+      "delayx":"2.1",
+      "dmg":"4",
+      "dmgx":"2",
+      "name":"Polyphemus",
+      "shown":true,
+      "text":"",
+      "id":"169"
+   },
+   {
+      "name":"Daddy Longlegs",
+      "shown":true,
+      "text":"40 dmg per stomp",
+      "id":"170"
+   },
+   {
+      "name":"Spider Butt",
+      "shown":false,
+      "text":"10 dmg to all enemies",
+      "space":true,
+      "id":"171"
+   },
+   {
+      "name":"Sacrificial Dagger",
+      "shown":true,
+      "text":"",
+      "id":"172"
+   },
+   {
+      "name":"Mitre",
+      "shown":true,
+      "text":"find more soul hearts",
+      "id":"173"
+   },
+   {
+      "name":"Rainbow Baby",
+      "shown":true,
+      "text":"",
+      "id":"174"
+   },
+   {
+      "name":"Dad's Key",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"175"
+   },
+   {
+      "health":"1",
+      "name":"Stem Cells",
+      "shotspeed":"0.16",
+      "shown":false,
+      "text":"",
+      "id":"176"
+   },
+   {
+      "name":"Portable Slot",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"177"
+   },
+   {
+      "name":"Holy Water",
+      "shown":true,
+      "text":"",
+      "id":"178"
+   },
+   {
+      "name":"Fate",
+      "shown":true,
+      "text":"flight, eternal heart",
+      "id":"179"
+   },
+   {
+      "name":"The Black Bean",
+      "shown":true,
+      "text":"26 dmg",
+      "id":"180"
+   },
+   {
+      "name":"White Pony",
+      "shown":false,
+      "speed":"Sets to 1.5",
+      "text":"flying, min speed 1.5",
+      "space":true,
+      "id":"181"
+   },
+   {
+      "dmgx":"2.3",
+      "height":"0.75",
+      "name":"Sacred Heart",
+      "range":"0.375",
+      "shotspeed":"-0.25",
+      "shown":true,
+      "tears":"-0.4",
+      "text":"+1 flat dmg, full heal",
+      "id":"182"
+   },
+   {
+      "name":"Toothpicks",
+      "shotspeed":"0.16",
+      "shown":true,
+      "tears":"0.7",
+      "text":"",
+      "id":"183"
+   },
+   {
+      "health":"1",
+      "name":"Holy Grail",
+      "shown":true,
+      "text":"flight",
+      "id":"184"
+   },
+   {
+      "name":"Dead Dove",
+      "shown":true,
+      "text":"flight, spectral",
+      "id":"185"
+   },
+   {
+      "name":"Blood Rights",
+      "shown":false,
+      "text":"40 dmg to all enemies",
+      "space":true,
+      "id":"186"
+   },
+   {
+      "name":"Guppy's Hairball",
+      "shown":true,
+      "text":"",
+      "id":"187"
+   },
+   {
+      "name":"Abel",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"188"
+   },
+   {
+      "dmg":"0.3",
+      "health":"1",
+      "height":"1",
+      "name":"SMB Super Fan",
+      "range":"0.5",
+      "shown":true,
+      "speed":"0.2",
+      "tears":"0.2",
+      "text":"full heal",
+      "id":"189"
+   },
+   {
+      "name":"Pyro",
+      "shown":true,
+      "text":"",
+      "id":"190"
+   },
+   {
+      "name":"3 Dollar Bill",
+      "shown":true,
+      "text":"",
+      "id":"191"
+   },
+   {
+      "name":"Telepathy for Dummies",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"192"
+   },
+   {
+      "dmg":"0.3",
+      "health":"1",
+      "name":"Meat!",
+      "shown":true,
+      "text":"",
+      "id":"193"
+   },
+   {
+      "name":"Magic 8-Ball",
+      "shotspeed":"0.16",
+      "shown":true,
+      "text":"",
+      "id":"194"
+   },
+   {
+      "name":"Mom's Coin Purse",
+      "shown":true,
+      "text":"",
+      "id":"195"
+   },
+   {
+      "name":"Mr. Squeezy",
+      "shown":true,
+      "tears":"0.4",
+      "text":"2 Soul Hearts",
+      "id":"196"
+   },
+   {
+      "dmg":"0.5",
+      "height":"0.5",
+      "name":"Jesus Juice",
+      "range":"0.25",
+      "shown":true,
+      "text":"",
+      "id":"197"
+   },
+   {
+      "name":"Box",
+      "shown":true,
+      "text":"",
+      "id":"198"
+   },
+   {
+      "name":"Mom's Key",
+      "shown":true,
+      "text":"2 keys, better chests",
+      "id":"199"
+   },
+   {
+      "name":"Mom's Eyeshadow",
+      "shown":true,
+      "text":"charm",
+      "id":"200"
+   },
+   {
+      "dmg":"0.3",
+      "name":"Iron Bar",
+      "shown":true,
+      "text":"",
+      "id":"201"
+   },
+   {
+      "name":"Midas Touch",
+      "shown":true,
+      "text":"",
+      "id":"202"
+   },
+   {
+      "name":"Humbleing Bundle",
+      "shown":true,
+      "text":"doubles penny, key, bomb, heart pickups",
+      "id":"203"
+   },
+   {
+      "name":"Fanny pack",
+      "shown":true,
+      "text":"can drop coin, bomb, or key when hit",
+      "id":"204"
+   },
+   {
+      "name":"Sharp plug",
+      "shown":true,
+      "text":"pay 2 health to recharge space item (only when at 0 charge)",
+      "id":"205"
+   },
+   {
+      "dmg":"1",
+      "name":"The Guillotine",
+      "shown":true,
+      "tears":"0.16",
+      "text":"detached head",
+      "id":"206"
+   },
+   {
+      "name":"Ball of Bandages",
+      "shown":true,
+      "text":"",
+      "id":"207"
+   },
+   {
+      "dmg":"1",
+      "name":"Champion Belt",
+      "shown":true,
+      "text":"more champion enemies",
+      "id":"208"
+   },
+   {
+      "name":"Butt Bombs",
+      "shown":true,
+      "text":"5 bombs, 10 dmg to all enemies",
+      "id":"209"
+   },
+   {
+      "name":"Gnawed Leaf",
+      "shown":true,
+      "text":"turn invincible by standing still",
+      "id":"210"
+   },
+   {
+      "name":"Spiderbaby",
+      "shown":true,
+      "text":"spawn blue spiders when hit",
+      "id":"211"
+   },
+   {
+      "name":"Guppy's Collar",
+      "shown":true,
+      "text":"50% chance to respawn",
+      "id":"212"
+   },
+   {
+      "name":"Lost Contact",
+      "shown":true,
+      "shotspeed":"-0.15",
+      "text":"tears can hit enemy tears",
+      "id":"213"
+   },
+   {
+      "name":"Anemic",
+      "range":"5",
+      "shown":true,
+      "text":"blood creep when hit",
+      "id":"214"
+   },
+   {
+      "name":"Goat Head",
+      "shown":true,
+      "text":"guaranteed devil/angel rooms that stay open",
+      "id":"215"
+   },
+   {
+      "dmg":"1",
+      "name":"Ceremonial Robes",
+      "shown":true,
+      "sinhearts":"3",
+      "text":"",
+      "id":"216"
+   },
+   {
+      "name":"Mom's Wig",
+      "shown":true,
+      "text":"shooting spawns spiders based on luck",
+      "id":"217"
+   },
+   {
+      "health":"1",
+      "name":"Placenta",
+      "shown":true,
+      "text":"regen health",
+      "id":"218"
+   },
+   {
+      "health":"1",
+      "name":"Old Bandage",
+      "shown":true,
+      "text":"red hearts can drop on hit",
+      "id":"219"
+   },
+   {
+      "name":"Sad Bombs",
+      "shown":true,
+      "text":"5 bombs, bombs shoot out 8 tears",
+      "id":"220"
+   },
+   {
+      "name":"Rubber Cement",
+      "shown":true,
+      "text":"can hit the same enemy multiple times",
+      "id":"221"
+   },
+   {
+      "name":"Anti-Gravity",
+      "shown":true,
+      "tears":"0.32",
+      "text":"hovering tears",
+      "id":"222"
+   },
+   {
+      "name":"Pyromaniac",
+      "shown":true,
+      "text":"5 bombs, explosions heal",
+      "id":"223"
+   },
+   {
+      "name":"Cricket's Body",
+      "range":"-10",
+      "shown":true,
+      "tears":"0.16",
+      "text":"split shots deal 1/2 damage",
+      "id":"224"
+   },
+   {
+      "name":"Gimpy",
+      "shown":true,
+      "text":"chance to drop soul or sin hearts on hit, dead enemies can drop half a red heart",
+      "id":"225"
+   },
+   {
+      "name":"Black Lotus",
+      "health":"1",
+      "soulhearts":"1",
+      "sinhearts":"1",
+      "shown":false,
+      "text":"",
+      "id":"226"
+   },
+   {
+      "name":"Piggy Bank",
+      "shown":true,
+      "text":"3 coins, when hit gain 1-2 coins",
+      "id":"227"
+   },
+   {
+      "name":"Mom's Perfume",
+      "shown":true,
+      "tears":"0.16",
+      "text":"fear",
+      "id":"228"
+   },
+   {
+      "name":"Monstro's Lung",
+      "shown":true,
+      "text":"",
+      "id":"229"
+   },
+   {
+      "sinhearts":"6",
+      "dmg":"1.5",
+      "name":"Abaddon",
+      "shown":true,
+      "speed":"0.2",
+      "text":"lose red hearts, fear",
+      "id":"230"
+   },
+   {
+      "name":"Ball of Tar",
+      "shown":true,
+      "text":"tears can slow enemies",
+      "id":"231"
+   },
+   {
+      "name":"Stop Watch",
+      "shown":true,
+      "text":"slows enemies",
+      "id":"232"
+   },
+   {
+      "height":"7",
+      "name":"Tiny Planet",
+      "shown":true,
+      "text":"orbiting tears",
+      "id":"233"
+   },
+   {
+      "name":"Infestation 2",
+      "shown":true,
+      "text":"dead enemies become spiders",
+      "id":"234"
+   },
+   {
+      "name":"E. Coli",
+      "shown":true,
+      "text":"enemies turn to poop on touch",
+      "id":"236"
+   },
+   {
+      "dmg":"1.5",
+      "name":"Death's Touch",
+      "shown":true,
+      "tears":"-0.3",
+      "text":"piercing",
+      "id":"237"
+   },
+   {
+      "name":"Key Piece #1",
+      "shown":true,
+      "text":"both key pieces together unlocks mega satan",
+      "id":"238"
+   },
+   {
+      "name":"Key Piece #2",
+      "shown":true,
+      "text":"both key pieces together unlocks mega satan",
+      "id":"239"
+   },
+   {
+      "name":"Experimental Treatment",
+      "shown":true,
+      "speed":"",
+      "text":"Changes stats randomly up or down",
+      "id":"240"
+   },
+   {
+      "name":"Contract From Below",
+      "shown":true,
+      "text":"doubles pickups, get more double boss fights",
+      "id":"241"
+   },
+   {
+      "name":"Infamy",
+      "shown":true,
+      "text":"randomly blocks shots, facing doesn't matter",
+      "id":"242"
+   },
+   {
+      "name":"Trinity Shield",
+      "shown":true,
+      "text":"",
+      "id":"243"
+   },
+   {
+      "name":"Tech.5",
+      "shown":true,
+      "text":"laser scales with dmg stat and ignores tears stat",
+      "id":"244"
+   },
+   {
+      "name":"20/20",
+      "shown":true,
+      "text":"",
+      "id":"245"
+   },
+   {
+      "name":"Blue Map",
+      "shown":true,
+      "text":"",
+      "id":"246"
+   },
+   {
+      "name":"BFFS!",
+      "shown":true,
+      "text":"x2 damage for familiars",
+      "id":"247"
+   },
+   {
+      "name":"Hive Mind",
+      "shown":true,
+      "text":"x2 dmg for spiders and flies",
+      "id":"248"
+   },
+   {
+      "name":"There's Options",
+      "shown":true,
+      "text":"2 items after each boss",
+      "id":"249"
+   },
+   {
+      "name":"Bogo Bombs",
+      "shown":true,
+      "text":"bomb pickups become 2 bombs",
+      "id":"250"
+   },
+   {
+      "name":"Starter Deck",
+      "shown":true,
+      "text":"pills become cards",
+      "id":"251"
+   },
+   {
+      "name":"Little Baggy",
+      "shown":true,
+      "text":"cards become pills",
+      "id":"252"
+   },
+   {
+      "health":"1",
+      "luck":"1",
+      "name":"Magic Scab",
+      "shown":true,
+      "text":"",
+      "id":"253"
+   },
+   {
+      "name":"Blood Clot",
+      "shown":true,
+      "text":"Every other shot: +1 flat dmg, +5 range",
+      "id":"254"
+   },
+   {
+      "name":"Screw",
+      "shotspeed":"0.2",
+      "shown":true,
+      "tears":"0.5",
+      "text":"",
+      "id":"255"
+   },
+   {
+      "name":"Hot Bombs",
+      "shown":true,
+      "text":"5 bombs, leaves fires that deal 22 dmg",
+      "id":"256"
+   },
+   {
+      "name":"Fire Mind",
+      "shown":true,
+      "text":"burns enemies, exploding tears for x2 dmg + 22",
+      "id":"257"
+   },
+   {
+      "name":"Missing No.",
+      "shown":true,
+      "text":"rerolls items every floor",
+      "id":"258"
+   },
+   {
+      "dmg":"1",
+      "name":"Dark Matter",
+      "shown":true,
+      "text":"fear",
+      "id":"259"
+   },
+   {
+      "name":"Black Candle",
+      "shown":true,
+      "sinhearts":"1",
+      "text":"no floor curses, more devil deals",
+      "id":"260"
+   },
+   {
+      "name":"Proptosis",
+      "shown":true,
+      "text":"between x2 and x1.3 dmg",
+      "id":"261"
+   },
+   {
+      "name":"Missing Page 2",
+      "shown":true,
+      "sinhearts":"1",
+      "text":"if below 1.5 total hp, deals 40 dmg to enemies on hit",
+      "id":"262"
+   },
+   {
+      "name":"Smart Fly",
+      "shown":true,
+      "text":"chases enemies after you get hit",
+      "id":"264"
+   },
+   {
+      "name":"Dry Baby",
+      "shown":true,
+      "text":"blocks projectiles, hits all enemies for 40 dmg",
+      "id":"265"
+   },
+   {
+      "name":"Juicy Sack",
+      "shown":true,
+      "text":"blue spiders",
+      "id":"266"
+   },
+   {
+      "name":"Robo-Baby 2.0",
+      "shown":true,
+      "text":"3.5 dmg",
+      "id":"267"
+   },
+   {
+      "name":"Rotten Baby",
+      "shown":true,
+      "text":"shoots flies",
+      "id":"268"
+   },
+   {
+      "name":"Headless Baby",
+      "shown":true,
+      "text":"",
+      "id":"269"
+   },
+   {
+      "name":"Leech",
+      "shown":true,
+      "text":"",
+      "id":"270"
+   },
+   {
+      "name":"Mystery Sack",
+      "shown":true,
+      "text":"drops hearts, coins, bombs, keys",
+      "id":"271"
+   },
+   {
+      "name":"BBF",
+      "shown":true,
+      "text":"~70 dmg explosion",
+      "id":"272"
+   },
+   {
+      "name":"Bob's Brain",
+      "shown":true,
+      "text":"~70 dmg explosion",
+      "id":"273"
+   },
+   {
+      "name":"Best Bud",
+      "shown":true,
+      "text":"taking damage spawns attack fly",
+      "id":"274"
+   },
+   {
+      "name":"Lil' Brimstone",
+      "shown":true,
+      "text":"31.5 dmg per shot",
+      "id":"275"
+   },
+   {
+      "name":"Isaac's Heart",
+      "shown":true,
+      "text":"you are invincible, heart takes damage",
+      "id":"276"
+   },
+   {
+      "name":"Lil' Haunt",
+      "shown":true,
+      "text":"chases enemies, fear effect",
+      "id":"277"
+   },
+   {
+      "name":"Dark Bum",
+      "shown":true,
+      "text":"turns 1.5 red heart pickups to a soul heart or spider",
+      "id":"278"
+   },
+   {
+      "name":"Big Fan",
+      "shown":true,
+      "text":"slow orbitals",
+      "id":"279"
+   },
+   {
+      "name":"Sissy Long Legs",
+      "shown":true,
+      "text":"makes blue spiders",
+      "id":"280"
+   },
+   {
+      "name":"Punching Bag",
+      "shown":true,
+      "text":"",
+      "id":"281"
+   },
+   {
+      "name":"How To Jump",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"282"
+   },
+   {
+      "name":"D100",
+      "shown":false,
+      "text":"rerolls current items and items+pickups in the room",
+      "space":true,
+      "id":"283"
+   },
+   {
+      "name":"D4",
+      "shown":false,
+      "text":"rerolls current items",
+      "space":true,
+      "id":"284"
+   },
+   {
+      "name":"D10",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"285"
+   },
+   {
+      "name":"Blank Card",
+      "shown":false,
+      "text":"works on runes and cards",
+      "space":true,
+      "id":"286"
+   },
+   {
+      "name":"Book of Secrets",
+      "shown":false,
+      "text":"randomly get map, compass, or blue map for the floor",
+      "space":true,
+      "id":"287"
+   },
+   {
+      "name":"Box of Spiders",
+      "shown":false,
+      "text":"make 2-4 blue spiders",
+      "space":true,
+      "id":"288"
+   },
+   {
+      "name":"Red Candle",
+      "shown":false,
+      "text":"each flame is 125 damage",
+      "space":true,
+      "id":"289"
+   },
+   {
+      "name":"The Jar",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"290"
+   },
+   {
+      "name":"FLUSH!",
+      "shown":false,
+      "text":"non-boss enemies turn to poop",
+      "space":true,
+      "id":"291"
+   },
+   {
+      "name":"The Satanic Bible",
+      "shown":false,
+      "text":"get a sin heart",
+      "space":true,
+      "id":"292"
+   },
+   {
+      "name":"Head of Krampus",
+      "shown":false,
+      "text":"4 beams, up to 462 dmg each",
+      "space":true,
+      "id":"293"
+   },
+   {
+      "name":"Butter Bean",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"294"
+   },
+   {
+      "name":"Magic Fingers",
+      "shown":false,
+      "text":"spend coins to deal x2 tear damage to all enemies",
+      "space":true,
+      "id":"295"
+   },
+   {
+      "name":"Converter",
+      "shown":false,
+      "text":"2 soul or sin hearts turn into 1 red heart",
+      "space":true,
+      "id":"296"
+   },
+   {
+      "name":"Pandora's Box",
+      "shown":false,
+      "text":"B1 2soul, B2 2bomb + 2key, C1 boss, C2 boss + 2soul, D1 4soul, D2 20coin, W1 2boss, W2 bible, sheol devil+sin, cath angel+white, DR coin, chest coin",
+      "space":true,
+      "id":"297"
+   },
+   {
+      "name":"Unicorn Stump",
+      "shown":false,
+      "text":"invincibility",
+      "space":true,
+      "id":"298"
+   },
+   {
+      "name":"Taurus",
+      "shown":true,
+      "speed":"-0.3",
+      "text":"speed increases until you unicorn",
+      "id":"299"
+   },
+   {
+      "name":"Aries",
+      "shown":true,
+      "speed":"0.25",
+      "text":"18 contact damage if moving fast enough",
+      "id":"300"
+   },
+   {
+      "name":"Cancer",
+      "shown":true,
+      "soulhearts":"3",
+      "text":"damage reduction after getting hit in a room",
+      "id":"301"
+   },
+   {
+      "name":"Leo",
+      "shown":true,
+      "text":"crush rocks",
+      "id":"302"
+   },
+   {
+      "name":"Virgo",
+      "shown":true,
+      "text":"shield effect sometimes when hit, bad pills become good",
+      "id":"303"
+   },
+   {
+      "name":"Libra",
+      "shown":true,
+      "text":"evens out stats, 6 bombs, 6 keys, 6 coins",
+      "id":"304"
+   },
+   {
+      "name":"Scorpio",
+      "shown":true,
+      "text":"",
+      "id":"305"
+   },
+   {
+      "name":"Sagittarius",
+      "shown":true,
+      "speed":"0.2",
+      "text":"piercing",
+      "id":"306"
+   },
+   {
+      "dmg":"0.5",
+      "health":"1",
+      "name":"Capricorn",
+      "range":"1.5",
+      "shown":true,
+      "speed":"0.1",
+      "tears":"0.16",
+      "text":"1 coin, 1 bomb, 1 key",
+      "id":"307"
+   },
+   {
+      "name":"Aquarius",
+      "shown":true,
+      "text":"",
+      "id":"308"
+   },
+   {
+      "name":"Pisces",
+      "shown":true,
+      "tears":"0.16",
+      "text":"",
+      "id":"309"
+   },
+   {
+      "delayx":"2",
+      "dmgx":"2",
+      "name":"Eve's Mascara",
+      "shotspeed":"-0.5",
+      "shown":true,
+      "text":"",
+      "id":"310"
+   },
+   {
+      "name":"Judas' Shadow",
+      "shown":true,
+      "text":"double damage after reviving",
+      "id":"311"
+   },
+   {
+      "health":"1",
+      "name":"Maggy's Bow",
+      "shown":true,
+      "text":"red heart pickups count double",
+      "id":"312"
+   },
+   {
+      "name":"Holy Mantle",
+      "shown":true,
+      "text":"1-hit shield for every room",
+      "id":"313"
+   },
+   {
+      "health":"1",
+      "name":"Thunder Thighs",
+      "shown":true,
+      "speed":"-0.4",
+      "text":"crush rocks",
+      "id":"314"
+   },
+   {
+      "name":"Strange Attractor",
+      "shown":true,
+      "text":"tears attract enemies and pickups",
+      "id":"315"
+   },
+   {
+      "name":"Cursed Eye",
+      "shown":true,
+      "text":"teleport if you're hit during first 1s of charge-up",
+      "id":"316"
+   },
+   {
+      "name":"Mysterious Liquid",
+      "shown":true,
+      "text":"",
+      "id":"317"
+   },
+   {
+      "name":"Gemini",
+      "shown":true,
+      "text":"",
+      "id":"318"
+   },
+   {
+      "name":"Cain's Other Eye",
+      "shown":true,
+      "text":"",
+      "id":"319"
+   },
+   {
+      "name":"???'s Only Friend",
+      "shown":true,
+      "text":"",
+      "id":"320"
+   },
+   {
+      "name":"Samson's Chains",
+      "shown":true,
+      "text":"ball does damage and breaks things",
+      "id":"321"
+   },
+   {
+      "name":"Mongo Baby",
+      "shown":true,
+      "text":"copies other familiars or 3.5 dmg",
+      "id":"322"
+   },
+   {
+      "name":"Isaac's Tears",
+      "shown":false,
+      "text":"fires 8 tears, charges from shooting",
+      "space":true,
+      "id":"323"
+   },
+   {
+      "name":"Undefined",
+      "shown":false,
+      "text":"teleport to item, secret, super secret, error, or black market",
+      "space":true,
+      "id":"324"
+   },
+   {
+      "name":"Scissors",
+      "shown":false,
+      "text":"cut off head, head keeps shooting",
+      "space":true,
+      "id":"325"
+   },
+   {
+      "name":"Breath of Life",
+      "shown":false,
+      "text":"invincibility when charge bar hits zero",
+      "space":true,
+      "id":"326"
+   },
+   {
+      "name":"The Polaroid",
+      "shown":true,
+      "text":"shield when hit at 1/2 heart, enter chest",
+      "id":"327"
+   },
+   {
+      "name":"The Negative",
+      "shown":true,
+      "text":"damage enemies when hit at 1/2 heart, enter dark room",
+      "id":"328"
+   },
+   {
+      "name":"The Ludovico Technique",
+      "shown":true,
+      "text":"remote control tears",
+      "id":"329"
+   },
+   {
+      "delay":"-2",
+      "delayx":".25",
+      "dmgx":"0.2",
+      "name":"Soy Milk",
+      "shown":true,
+      "text":"",
+      "id":"330"
+   },
+   {
+      "dmg":"0.5",
+      "height":"0.8",
+      "name":"Godhead",
+      "range":"1.2",
+      "shotspeed":"-0.3",
+      "shown":true,
+      "tears":"-0.3",
+      "text":"tear aura",
+      "id":"331"
+   },
+   {
+      "name":"Lazarus' Rags",
+      "shown":true,
+      "text":"extra life, become lazarus 2",
+      "id":"332"
+   },
+   {
+      "name":"The Mind",
+      "shown":true,
+      "text":"full mapping",
+      "id":"333"
+   },
+   {
+      "health":"3",
+      "name":"The Body",
+      "shown":true,
+      "text":"",
+      "id":"334"
+   },
+   {
+      "name":"The Soul",
+      "shown":true,
+      "soulhearts":"2",
+      "text":"tear repulsion",
+      "id":"335"
+   },
+   {
+      "height":"-0.5",
+      "name":"Dead Onion",
+      "range":"0.25",
+      "shotspeed":"-0.4",
+      "shown":true,
+      "text":"piercing",
+      "id":"336"
+   },
+   {
+      "name":"Broken Watch",
+      "shown":true,
+      "text":"slows or speeds enemies",
+      "id":"337"
+   },
+   {
+      "name":"Boomerang",
+      "shown":false,
+      "text":"",
+      "space":true,
+      "id":"338"
+   },
+   {
+      "height":"0.5",
+      "name":"Safety Pin",
+      "range":"5.25",
+      "shotspeed":"0.16",
+      "shown":true,
+      "sinhearts":"1",
+      "text":"",
+      "id":"339"
+   },
+   {
+      "name":"Caffeine Pill",
+      "shown":true,
+      "speed":"0.3",
+      "text":"size down, free pill",
+      "id":"340"
+   },
+   {
+      "name":"Torn Photo",
+      "shotspeed":"0.16",
+      "shown":true,
+      "tears":"0.7",
+      "text":"",
+      "id":"341"
+   },
+   {
+      "health":"1",
+      "name":"Blue Cap",
+      "shotspeed":"-0.16",
+      "shown":true,
+      "tears":"0.7",
+      "text":"",
+      "id":"342"
+   },
+   {
+      "luck":"1",
+      "name":"Latch Key",
+      "shown":true,
+      "soulhearts":"1",
+      "text":"2 Keys",
+      "id":"343"
+   },
+   {
+      "name":"Match Book",
+      "shown":true,
+      "sinhearts":"1",
+      "text":"3 bombs",
+      "id":"344"
+   },
+   {
+      "dmg":"1",
+      "height":"0.5",
+      "name":"Synthoil",
+      "range":"5.25",
+      "shown":true,
+      "text":"",
+      "id":"345"
+   },
+   {
+      "health":"1",
+      "name":"A Snack",
+      "shown":false,
+      "text":"",
+      "id":"346"
+   }
+]

@@ -1,0 +1,1299 @@
+OpenGL version 2.1 INTEL-10.0.86
+GLSL version 1.20
+Initialize ColorOffset Shader
+Initialize Pixelation Shader
+Initialize Bloom Shader
+Initialize Color Correction Shader
+Initialize HQ4X Shader
+Initialize Shockwave Shader
+Initialize OldTV Shader
+load archives: 857 milliseconds
+preload anm2: 59 milliseconds
+HQX4 size: 960x540
+[RoomConfig] load stage 0: Special Rooms
+[RoomConfig] load stage 1: Basement
+[warn] Room (type=0, variant=0, name=(null)) has invalid size (0x0)
+[warn] Room (type=0, variant=0, name=(null)) has invalid size (0x0)
+[RoomConfig] load stage 2: Cellar
+[RoomConfig] load stage 3: Caves
+[RoomConfig] load stage 4: Catacombs
+[RoomConfig] load stage 5: Depths
+[RoomConfig] load stage 6: Necropolis
+[RoomConfig] load stage 7: Womb
+[RoomConfig] load stage 8: Utero
+[RoomConfig] load stage 9: Sheol
+[RoomConfig] load stage 10: Cathedral
+[RoomConfig] load stage 11: Dark Room
+[RoomConfig] load stage 12: Chest
+preload rooms: 59 milliseconds
+Loading PersistentGameData from disk: /Users/danny/Library/Application Support/Binding of Isaac Rebirth/persistentgamedata1.dat.
+Loading PersistentGameData from Steam Cloud: persistentgamedata1.dat.
+Local revision: 3013, SteamCloud revision: 3013
+Loading PersistentGameData from disk: /Users/danny/Library/Application Support/Binding of Isaac Rebirth/persistentgamedata2.dat.
+Loading PersistentGameData from Steam Cloud: persistentgamedata2.dat.
+Local revision: 50, SteamCloud revision: 50
+Loading PersistentGameData from disk: /Users/danny/Library/Application Support/Binding of Isaac Rebirth/persistentgamedata3.dat.
+Loading PersistentGameData from Steam Cloud: persistentgamedata3.dat.
+Local revision: 47, SteamCloud revision: 47
+playing cutscene 1 (Intro).
+Framebuffer Width: 1920 
+ Render Width: 1920 
+ Window Width: 1920 
+ Multiplier: 0.222222 
+ DP per point: 1.000000 
+ Point Scale: 4.500000 
+HQX4 size: 1920x1080
+Cutscene: correct anm2 timing: f18 -> f21
+Viewport: 1920x1080
+Framebuffer Width: 1920 
+ Render Width: 960 
+ Window Width: 960 
+ Multiplier: 2.307692 
+ DP per point: 2.000000 
+ Point Scale: 1.000000 
+HQX4 size: 960x540
+Loading PersistentGameData from disk: /Users/danny/Library/Application Support/Binding of Isaac Rebirth/persistentgamedata1.dat.
+Loading PersistentGameData from Steam Cloud: persistentgamedata1.dat.
+Local revision: 3014, SteamCloud revision: 3014
+Initialized player with Variant 0 and Subtype 0
+Room 4.1()
+SpawnRNG seed: 3810929023
+Room 1.2(Start Room)
+SpawnRNG seed: 3077759390
+music stopped playing
+Room 1.238(New Room)
+SpawnRNG seed: 2419517005
+Spawn Entity with Type(85), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(205), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(85), Variant(0), Pos(360.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_082_Trite.png while in gameplay
+Room 1.55()
+SpawnRNG seed: 3707371625
+Spawn Entity with Type(33), Variant(1), Pos(320.00,280.00)
+Room 1.508(Basement Copy2)
+SpawnRNG seed: 3493811439
+Spawn Entity with Type(85), Variant(0), Pos(120.00,160.00)
+Spawn Entity with Type(29), Variant(1), Pos(280.00,160.00)
+Spawn Entity with Type(29), Variant(1), Pos(360.00,160.00)
+Spawn Entity with Type(85), Variant(0), Pos(520.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(320.00,360.00)
+Spawn Entity with Type(33), Variant(0), Pos(240.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(400.00,400.00)
+Room 5.3376(Pin (copy))
+SpawnRNG seed: 3568236890
+Spawn Entity with Type(62), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(243), Variant(0), Pos(320.00,280.00)
+Adding costume for 192 (Telepathy For Dummies) which was added before and never removed.
+CPU time spent on enemy queries: 0.02 seconds.
+RNG Start Seed: 9YFT WWTC (4075054775)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 1 Seed 1623193470
+generate...
+8 rooms in 5 loops
+not enough dead ends, trying to make new one
+not enough dead ends, trying to make new one
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 934579449
+Room 1.184(New Room)
+SpawnRNG seed: 4001126949
+Spawn Entity with Type(215), Variant(0), Pos(120.00,200.00)
+Spawn Entity with Type(215), Variant(0), Pos(520.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/classic/Monster_080_Spider.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 934579449
+Room 1.184(New Room)
+SpawnRNG seed: 4001126949
+Room 1.2(Start Room)
+SpawnRNG seed: 934579449
+Room 1.553(Basement Copy2)
+SpawnRNG seed: 1089421110
+Spawn Entity with Type(217), Variant(0), Pos(320.00,200.00)
+Spawn Entity with Type(217), Variant(0), Pos(240.00,240.00)
+Spawn Entity with Type(217), Variant(0), Pos(400.00,240.00)
+Spawn Entity with Type(217), Variant(0), Pos(240.00,320.00)
+Spawn Entity with Type(217), Variant(0), Pos(400.00,320.00)
+Spawn Entity with Type(217), Variant(0), Pos(320.00,360.00)
+Room 1.249(New Room)
+SpawnRNG seed: 197508907
+Spawn Entity with Type(18), Variant(0), Pos(360.00,240.00)
+Spawn Entity with Type(250), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(280.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/classic/Monster_080_Spider.png while in gameplay
+Room 1.211(New Room)
+SpawnRNG seed: 1612717452
+Room 1.249(New Room)
+SpawnRNG seed: 197508907
+CPU time spent on enemy queries: 0.03 seconds.
+RNG Start Seed: 14N3 C37Q (2977361562)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 1 Seed 2468558184
+generate...
+8 rooms in 4 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 2562228290
+Room 4.9( (copy))
+SpawnRNG seed: 2219273988
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+item taken without exchange
+item queue flush
+Adding collectible 161 (Ankh)
+Total entity spawn time: 302 ms
+Total ANM2 loading time: 10 ms
+AnmCache memory usage: 9216256 bytes in 790 entries.
+music stopped playing
+CPU time spent on enemy queries: 0.03 seconds.
+RNG Start Seed: NGHX 4TP7 (1851802296)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 1 Seed 3391734748
+Curse of Maze
+generate...
+9 rooms in 5 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 541084933
+Room 4.10( (copy))
+SpawnRNG seed: 185016257
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+item taken without exchange
+item queue flush
+Adding collectible 140 (Bobs Curse)
+Room 1.2(Start Room)
+SpawnRNG seed: 541084933
+CPU time spent on enemy queries: 0.03 seconds.
+RNG Start Seed: 0TS6 AEEZ (3146694637)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 1 Seed 358647104
+generate...
+8 rooms in 5 loops
+not enough dead ends, trying to make new one
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 112547519
+music stopped playing
+CPU time spent on enemy queries: 0.03 seconds.
+RNG Start Seed: Z7P3 4JY6 (2696209119)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 1 Seed 2021011740
+generate...
+9 rooms in 6 loops
+not enough dead ends, trying to make new one
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 2088110160
+Room 4.4()
+SpawnRNG seed: 2841040427
+Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
+item taken without exchange
+item queue flush
+Adding collectible 288 (Box of Spiders)
+Room 1.2(Start Room)
+SpawnRNG seed: 2088110160
+music stopped playing
+Room 1.550(Basement Copy2)
+SpawnRNG seed: 2820719218
+Spawn Entity with Type(10), Variant(1), Pos(120.00,280.00)
+Spawn Entity with Type(10), Variant(1), Pos(520.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_080_Spider.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_000_Bodies02.png while in gameplay
+CPU time spent on enemy queries: 0.03 seconds.
+RNG Start Seed: Y4WB 3849 (2840290054)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 0 Seed 1208897193
+generate...
+8 rooms in 5 loops
+not enough dead ends, trying to make new one
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 1415966147
+Room 1.356(New Room)
+SpawnRNG seed: 3354331897
+Spawn Entity with Type(10), Variant(0), Pos(240.00,400.00)
+Spawn Entity with Type(10), Variant(1), Pos(320.00,400.00)
+Spawn Entity with Type(10), Variant(0), Pos(400.00,400.00)
+Spawn Entity with Type(10), Variant(0), Pos(240.00,440.00)
+Spawn Entity with Type(10), Variant(1), Pos(320.00,440.00)
+Spawn Entity with Type(10), Variant(0), Pos(400.00,440.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_000_Bodies02.png while in gameplay
+Room 1.71()
+SpawnRNG seed: 670911335
+Spawn Entity with Type(10), Variant(0), Pos(480.00,200.00)
+Spawn Entity with Type(14), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(10), Variant(0), Pos(160.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+Room 1.35()
+SpawnRNG seed: 245574106
+Spawn Entity with Type(5), Variant(40), Pos(280.00,280.00)
+Spawn Entity with Type(5), Variant(40), Pos(320.00,280.00)
+Spawn Entity with Type(5), Variant(40), Pos(360.00,280.00)
+Room 1.71()
+SpawnRNG seed: 670911335
+Room 1.356(New Room)
+SpawnRNG seed: 3354331897
+Room 1.2(Start Room)
+SpawnRNG seed: 1415966147
+Room 1.69()
+SpawnRNG seed: 211670511
+Spawn Entity with Type(18), Variant(0), Pos(160.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(240.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(400.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(480.00,280.00)
+Room 4.4()
+SpawnRNG seed: 3236167331
+Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
+item taken without exchange
+item queue flush
+Adding collectible 336 (Dead Onion)
+Room 1.69()
+SpawnRNG seed: 211670511
+music stopped playing
+Room 1.2(Start Room)
+SpawnRNG seed: 1415966147
+Room 1.356(New Room)
+SpawnRNG seed: 3354331897
+Room 1.71()
+SpawnRNG seed: 670911335
+Room 1.35()
+SpawnRNG seed: 245574106
+Room 5.2010(The Duke of Flies)
+SpawnRNG seed: 4202057926
+Spawn Entity with Type(67), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_033_Tiny Fly.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 13 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+Mom clear time: 2545
+Par time: 36000
+item taken without exchange
+item queue flush
+Adding collectible 25 (Breakfast)
+Level::Init m_Stage 2, m_AltStage 0 Seed 4279207683
+generate...
+12 rooms in 6 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 57668457
+Room 1.144()
+SpawnRNG seed: 550403415
+Spawn Entity with Type(33), Variant(0), Pos(240.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(400.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(240.00,240.00)
+Spawn Entity with Type(33), Variant(0), Pos(280.00,240.00)
+Spawn Entity with Type(33), Variant(0), Pos(360.00,240.00)
+Spawn Entity with Type(33), Variant(0), Pos(400.00,240.00)
+Spawn Entity with Type(33), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(240.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(400.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(280.00,320.00)
+Spawn Entity with Type(33), Variant(0), Pos(360.00,320.00)
+Spawn Entity with Type(33), Variant(0), Pos(320.00,360.00)
+Room 1.151()
+SpawnRNG seed: 3642772580
+Spawn Entity with Type(5), Variant(20), Pos(200.00,280.00)
+Spawn Entity with Type(5), Variant(20), Pos(240.00,280.00)
+Spawn Entity with Type(5), Variant(20), Pos(320.00,280.00)
+Spawn Entity with Type(5), Variant(20), Pos(400.00,280.00)
+Spawn Entity with Type(5), Variant(20), Pos(440.00,280.00)
+Room 1.144()
+SpawnRNG seed: 550403415
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+Room 10.5( (copy))
+SpawnRNG seed: 2927571120
+Spawn Entity with Type(5), Variant(360), Pos(240.00,280.00)
+Spawn Entity with Type(5), Variant(51), Pos(320.00,280.00)
+Spawn Entity with Type(5), Variant(360), Pos(400.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_080_Spider.png while in gameplay
+item taken without exchange
+item queue flush
+Adding collectible 215 (Goat Head)
+Room 1.144()
+SpawnRNG seed: 550403415
+Room 1.2(Start Room)
+SpawnRNG seed: 57668457
+Room 1.534(New Room)
+SpawnRNG seed: 2076975979
+Spawn Entity with Type(18), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(14), Variant(0), Pos(480.00,240.00)
+Spawn Entity with Type(18), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(14), Variant(1), Pos(480.00,280.00)
+Spawn Entity with Type(14), Variant(0), Pos(480.00,320.00)
+Spawn Entity with Type(18), Variant(0), Pos(440.00,360.00)
+config for entity 5.40 is missing
+[warn] No sprite for Pickup variant 40
+Room 1.427(New Room)
+SpawnRNG seed: 2052220991
+Spawn Entity with Type(244), Variant(0), Pos(520.00,320.00)
+Spawn Entity with Type(244), Variant(0), Pos(640.00,320.00)
+Spawn Entity with Type(244), Variant(0), Pos(440.00,400.00)
+Spawn Entity with Type(222), Variant(0), Pos(560.00,400.00)
+Spawn Entity with Type(222), Variant(0), Pos(600.00,400.00)
+Spawn Entity with Type(244), Variant(0), Pos(520.00,480.00)
+Spawn Entity with Type(244), Variant(0), Pos(640.00,480.00)
+Room 4.3()
+SpawnRNG seed: 17616208
+Spawn Entity with Type(33), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,280.00)
+item taken without exchange
+item queue flush
+Adding collectible 121 (Odd Mushroom)
+Room 1.427(New Room)
+SpawnRNG seed: 2052220991
+music stopped playing
+Room 1.266(New Room)
+SpawnRNG seed: 3614377920
+Spawn Entity with Type(222), Variant(0), Pos(280.00,240.00)
+Spawn Entity with Type(222), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(222), Variant(0), Pos(360.00,240.00)
+Spawn Entity with Type(222), Variant(0), Pos(280.00,320.00)
+Spawn Entity with Type(222), Variant(0), Pos(320.00,320.00)
+Spawn Entity with Type(222), Variant(0), Pos(360.00,320.00)
+Room 5.1014(Monstro)
+SpawnRNG seed: 1475380792
+Spawn Entity with Type(20), Variant(0), Pos(320.00,280.00)
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 1 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/effect_bloodgush.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_052_Dust Cloud.png while in gameplay
+Mom clear time: 7482
+Par time: 36000
+item taken without exchange
+item queue flush
+Adding collectible 28 (The Belt)
+music stopped playing
+Room 14.3(Devil (Shop) (copy))
+SpawnRNG seed: 839383114
+Spawn Entity with Type(33), Variant(0), Pos(200.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(5), Variant(150), Pos(320.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+item taken without exchange
+item queue flush
+Adding collectible 163 (Ghost Baby)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/familiar/familiar_shooters_09_ghostbaby.png while in gameplay
+Room 5.1014(Monstro)
+SpawnRNG seed: 1475380792
+Mom clear time: 7811
+Par time: 36000
+Total entity spawn time: 1028 ms
+Total ANM2 loading time: 68 ms
+AnmCache memory usage: 9216256 bytes in 790 entries.
+Level::Init m_Stage 3, m_AltStage 0 Seed 292452331
+generate...
+15 rooms in 11 loops
+not enough dead ends (5/6)
+generate...
+15 rooms in 12 loops
+not enough dead ends (5/6)
+generate...
+15 rooms in 9 loops
+placing rooms...
+Map Generated in 3 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 912643744
+Room 1.19()
+SpawnRNG seed: 2850768775
+Spawn Entity with Type(23), Variant(0), Pos(80.00,200.00)
+Spawn Entity with Type(23), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(560.00,360.00)
+Room 1.266(New Room)
+SpawnRNG seed: 3741888031
+Spawn Entity with Type(33), Variant(0), Pos(320.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(280.00,200.00)
+Spawn Entity with Type(5), Variant(60), Pos(320.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(360.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
+Room 1.250(New Room)
+SpawnRNG seed: 3782601143
+Spawn Entity with Type(240), Variant(0), Pos(80.00,200.00)
+Spawn Entity with Type(240), Variant(0), Pos(560.00,200.00)
+Spawn Entity with Type(240), Variant(0), Pos(80.00,360.00)
+Spawn Entity with Type(240), Variant(0), Pos(560.00,360.00)
+Room 1.187(New Room)
+SpawnRNG seed: 4097420048
+Spawn Entity with Type(227), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(227), Variant(0), Pos(200.00,360.00)
+Room 1.250(New Room)
+SpawnRNG seed: 3782601143
+Room 1.266(New Room)
+SpawnRNG seed: 3741888031
+Room 1.218(New Room)
+SpawnRNG seed: 741448149
+Spawn Entity with Type(210), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(210), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(210), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(210), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_016_BloodPool.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/rebirth/monster_210_halfsack.png while in gameplay
+Action PillCard Triggered
+Room 1.266(New Room)
+SpawnRNG seed: 3741888031
+Room 1.19()
+SpawnRNG seed: 2850768775
+Room 1.2(Start Room)
+SpawnRNG seed: 912643744
+Room 1.228(New Room)
+SpawnRNG seed: 578426539
+Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(238), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(238), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(238), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(238), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(238), Variant(0), Pos(320.00,320.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/grid_tnt.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_052_Dust Cloud.png while in gameplay
+Room 1.367(New Room)
+SpawnRNG seed: 409170990
+Spawn Entity with Type(244), Variant(0), Pos(200.00,240.00)
+Spawn Entity with Type(243), Variant(0), Pos(560.00,240.00)
+Spawn Entity with Type(244), Variant(0), Pos(960.00,240.00)
+Spawn Entity with Type(243), Variant(0), Pos(560.00,280.00)
+Spawn Entity with Type(244), Variant(0), Pos(200.00,320.00)
+Spawn Entity with Type(243), Variant(0), Pos(560.00,320.00)
+Spawn Entity with Type(244), Variant(0), Pos(960.00,320.00)
+Room 1.470(New Room)
+SpawnRNG seed: 2555845215
+Spawn Entity with Type(27), Variant(1), Pos(200.00,160.00)
+Spawn Entity with Type(27), Variant(0), Pos(440.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(200.00,240.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,240.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+Game Over. Killed by (9.0) spawned by (27.1) damage flags (0)
+music stopped playing
+CPU time spent on enemy queries: 0.15 seconds.
+RNG Start Seed: 7LNZ 2JFJ (3849724893)
+Initialized player with Variant 0 and Subtype 0
+Level::Init m_Stage 1, m_AltStage 0 Seed 2365848323
+generate...
+8 rooms in 4 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 4081125996
+Room 1.554(New Room)
+SpawnRNG seed: 3673949603
+Spawn Entity with Type(18), Variant(0), Pos(120.00,240.00)
+Spawn Entity with Type(18), Variant(0), Pos(520.00,240.00)
+Spawn Entity with Type(12), Variant(0), Pos(120.00,280.00)
+Spawn Entity with Type(12), Variant(0), Pos(520.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(120.00,320.00)
+Spawn Entity with Type(18), Variant(0), Pos(520.00,320.00)
+Room 1.80()
+SpawnRNG seed: 1717724151
+Spawn Entity with Type(12), Variant(0), Pos(480.00,160.00)
+Spawn Entity with Type(12), Variant(0), Pos(160.00,400.00)
+Room 1.554(New Room)
+SpawnRNG seed: 3673949603
+Room 1.2(Start Room)
+SpawnRNG seed: 4081125996
+Room 1.41()
+SpawnRNG seed: 2463510571
+Spawn Entity with Type(29), Variant(0), Pos(480.00,160.00)
+Spawn Entity with Type(29), Variant(0), Pos(160.00,400.00)
+Room 4.5()
+SpawnRNG seed: 2843509672
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+item taken without exchange
+item queue flush
+Adding collectible 107 (The Pinking Shears)
+Room 1.41()
+SpawnRNG seed: 2463510571
+music stopped playing
+Room 1.2(Start Room)
+SpawnRNG seed: 4081125996
+Room 1.554(New Room)
+SpawnRNG seed: 3673949603
+Room 1.80()
+SpawnRNG seed: 1717724151
+Room 5.2073(Steven)
+SpawnRNG seed: 1729091038
+Spawn Entity with Type(79), Variant(1), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+TriggerBossDeath: 1 bosses remaining.
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 0 added to SaveState
+Mom clear time: 1981
+Par time: 36000
+item taken without exchange
+item queue flush
+Adding collectible 100 (Little Steven)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/familiar/familiar_shooters_05_littlesteve.png while in gameplay
+Level::Init m_Stage 2, m_AltStage 0 Seed 2904785973
+generate...
+11 rooms in 6 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 2318820559
+Room 1.473(New Room)
+SpawnRNG seed: 3020092719
+Spawn Entity with Type(244), Variant(0), Pos(640.00,200.00)
+Spawn Entity with Type(244), Variant(0), Pos(680.00,200.00)
+Spawn Entity with Type(244), Variant(0), Pos(560.00,280.00)
+Spawn Entity with Type(244), Variant(0), Pos(600.00,280.00)
+Spawn Entity with Type(244), Variant(0), Pos(480.00,360.00)
+Spawn Entity with Type(244), Variant(0), Pos(520.00,360.00)
+Room 4.4()
+SpawnRNG seed: 1085152152
+Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
+item taken without exchange
+item queue flush
+Adding collectible 213 (Lost Contact)
+Room 1.473(New Room)
+SpawnRNG seed: 3020092719
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+music stopped playing
+Room 1.103()
+SpawnRNG seed: 3486430225
+Spawn Entity with Type(18), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(18), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(18), Variant(0), Pos(320.00,320.00)
+Action PillCard Triggered
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_Fart.png while in gameplay
+Room 1.473(New Room)
+SpawnRNG seed: 3020092719
+Room 1.2(Start Room)
+SpawnRNG seed: 2318820559
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.253(New Room)
+SpawnRNG seed: 3496312378
+Spawn Entity with Type(10), Variant(1), Pos(320.00,240.00)
+Spawn Entity with Type(10), Variant(1), Pos(280.00,280.00)
+Spawn Entity with Type(208), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(10), Variant(1), Pos(360.00,280.00)
+Spawn Entity with Type(10), Variant(1), Pos(320.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_000_Bodies02.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_Fart.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 2318820559
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.252(New Room)
+SpawnRNG seed: 353723774
+Spawn Entity with Type(5), Variant(40), Pos(200.00,240.00)
+Spawn Entity with Type(215), Variant(0), Pos(440.00,240.00)
+Spawn Entity with Type(215), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(215), Variant(0), Pos(200.00,320.00)
+config for entity 5.40 is missing
+[warn] No sprite for Pickup variant 40
+Spawn Entity with Type(5), Variant(40), Pos(440.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/classic/Monster_080_Spider.png while in gameplay
+Room 1.534(New Room)
+SpawnRNG seed: 5308997
+Spawn Entity with Type(18), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(14), Variant(0), Pos(480.00,240.00)
+Spawn Entity with Type(18), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(14), Variant(1), Pos(480.00,280.00)
+Spawn Entity with Type(14), Variant(0), Pos(480.00,320.00)
+Spawn Entity with Type(18), Variant(0), Pos(440.00,360.00)
+Room 5.1014(Monstro)
+SpawnRNG seed: 1458554245
+Spawn Entity with Type(20), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 1 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/effect_bloodgush.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+Mom clear time: 4955
+Par time: 36000
+item taken without exchange
+item queue flush
+Adding collectible 30 (Mom's Heels)
+music stopped playing
+Level::Init m_Stage 3, m_AltStage 0 Seed 3775395011
+generate...
+15 rooms in 10 loops
+not enough dead ends (5/6)
+generate...
+15 rooms in 9 loops
+placing rooms...
+Map Generated in 2 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 2871782446
+Room 1.4()
+SpawnRNG seed: 3839273148
+Spawn Entity with Type(21), Variant(0), Pos(240.00,240.00)
+Spawn Entity with Type(21), Variant(0), Pos(400.00,240.00)
+Spawn Entity with Type(21), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(21), Variant(0), Pos(440.00,280.00)
+Spawn Entity with Type(21), Variant(0), Pos(240.00,320.00)
+Spawn Entity with Type(21), Variant(0), Pos(400.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/grid_tnt.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_052_Dust Cloud.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 2871782446
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.237(New Room)
+SpawnRNG seed: 2094830272
+Spawn Entity with Type(226), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(226), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(208), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(226), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(226), Variant(0), Pos(320.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_Fart.png while in gameplay
+Room 1.12()
+SpawnRNG seed: 3144621861
+Spawn Entity with Type(22), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(22), Variant(0), Pos(200.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+item queue flush
+Room 1.194(New Room)
+SpawnRNG seed: 2061291115
+Spawn Entity with Type(229), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 4.1()
+SpawnRNG seed: 1917941095
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+item taken without exchange
+item queue flush
+Adding collectible 302 (Leo)
+music stopped playing
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.194(New Room)
+SpawnRNG seed: 2061291115
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.12()
+SpawnRNG seed: 3144621861
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.36()
+SpawnRNG seed: 1978801510
+Spawn Entity with Type(25), Variant(0), Pos(400.00,200.00)
+Spawn Entity with Type(25), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(25), Variant(0), Pos(440.00,280.00)
+Spawn Entity with Type(25), Variant(0), Pos(240.00,360.00)
+Room 1.206(New Room)
+SpawnRNG seed: 2225978738
+Spawn Entity with Type(242), Variant(0), Pos(320.00,160.00)
+Spawn Entity with Type(242), Variant(0), Pos(320.00,400.00)
+Total entity spawn time: 4053 ms
+Total ANM2 loading time: 136 ms
+AnmCache memory usage: 9216256 bytes in 790 entries.
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.211(New Room)
+SpawnRNG seed: 4235581908
+Spawn Entity with Type(5), Variant(20), Pos(80.00,160.00)
+Spawn Entity with Type(5), Variant(20), Pos(120.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(5), Variant(20), Pos(80.00,200.00)
+Spawn Entity with Type(5), Variant(20), Pos(560.00,360.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(5), Variant(20), Pos(520.00,400.00)
+Spawn Entity with Type(5), Variant(20), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+Room 1.239(New Room)
+SpawnRNG seed: 1361582115
+Spawn Entity with Type(31), Variant(0), Pos(280.00,240.00)
+Spawn Entity with Type(21), Variant(0), Pos(440.00,240.00)
+Spawn Entity with Type(243), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(21), Variant(0), Pos(200.00,320.00)
+Spawn Entity with Type(31), Variant(0), Pos(360.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Total entity spawn time: 4374 ms
+Total ANM2 loading time: 139 ms
+AnmCache memory usage: 9216256 bytes in 790 entries.
+Room 1.33()
+SpawnRNG seed: 3240923568
+Spawn Entity with Type(21), Variant(0), Pos(200.00,200.00)
+Spawn Entity with Type(21), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(31), Variant(0), Pos(280.00,240.00)
+Spawn Entity with Type(31), Variant(0), Pos(360.00,320.00)
+Spawn Entity with Type(21), Variant(0), Pos(200.00,360.00)
+Spawn Entity with Type(21), Variant(0), Pos(440.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.239(New Room)
+SpawnRNG seed: 1361582115
+Room 1.211(New Room)
+SpawnRNG seed: 4235581908
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.206(New Room)
+SpawnRNG seed: 2225978738
+Room 1.36()
+SpawnRNG seed: 1978801510
+Room 1.56()
+SpawnRNG seed: 748002660
+Spawn Entity with Type(26), Variant(1), Pos(240.00,280.00)
+Spawn Entity with Type(26), Variant(1), Pos(320.00,280.00)
+Spawn Entity with Type(26), Variant(1), Pos(400.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.36()
+SpawnRNG seed: 1978801510
+Room 1.206(New Room)
+SpawnRNG seed: 2225978738
+Total entity spawn time: 4826 ms
+Total ANM2 loading time: 142 ms
+AnmCache memory usage: 9216256 bytes in 790 entries.
+Room 1.211(New Room)
+SpawnRNG seed: 4235581908
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+Room 1.239(New Room)
+SpawnRNG seed: 1361582115
+Room 1.33()
+SpawnRNG seed: 3240923568
+Room 5.1103(C.H.A.D. (copy))
+SpawnRNG seed: 2423042485
+Spawn Entity with Type(61), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(28), Variant(1), Pos(280.00,280.00)
+Spawn Entity with Type(28), Variant(1), Pos(320.00,280.00)
+Spawn Entity with Type(28), Variant(1), Pos(360.00,280.00)
+Spawn Entity with Type(61), Variant(0), Pos(80.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_016_BloodPool.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 21 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+Mom clear time: 11085
+Par time: 36000
+Action PillCard Triggered
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_Fart.png while in gameplay
+item taken without exchange
+music stopped playing
+item queue flush
+Adding collectible 96 (Little C.H.A.D.)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/familiar/familiar_spawners_03_littlechad.png while in gameplay
+Level::Init m_Stage 4, m_AltStage 0 Seed 3500608051
+generate...
+18 rooms in 12 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 2808477291
+Room 1.308(New Room)
+SpawnRNG seed: 2364644229
+Spawn Entity with Type(5), Variant(20), Pos(120.00,160.00)
+Spawn Entity with Type(5), Variant(20), Pos(320.00,160.00)
+Spawn Entity with Type(5), Variant(20), Pos(520.00,160.00)
+Spawn Entity with Type(5), Variant(10), Pos(120.00,400.00)
+Spawn Entity with Type(5), Variant(10), Pos(320.00,400.00)
+Spawn Entity with Type(5), Variant(10), Pos(520.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.517(New Room)
+SpawnRNG seed: 250181118
+Spawn Entity with Type(24), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(24), Variant(0), Pos(320.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Room 1.308(New Room)
+SpawnRNG seed: 2364644229
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 2808477291
+Room 1.162()
+SpawnRNG seed: 1536216925
+Spawn Entity with Type(15), Variant(1), Pos(200.00,280.00)
+Spawn Entity with Type(15), Variant(1), Pos(280.00,280.00)
+Spawn Entity with Type(15), Variant(1), Pos(360.00,280.00)
+Spawn Entity with Type(15), Variant(1), Pos(440.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 2808477291
+Room 1.122()
+SpawnRNG seed: 3231691377
+Spawn Entity with Type(22), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(22), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(22), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_001_Pooter.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+config for entity 5.40 is missing
+[warn] No sprite for Pickup variant 40
+Room 1.257(New Room)
+SpawnRNG seed: 1565483072
+Spawn Entity with Type(227), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(227), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(227), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.122()
+SpawnRNG seed: 3231691377
+Room 1.2(Start Room)
+SpawnRNG seed: 2808477291
+Room 1.296(New Room)
+SpawnRNG seed: 3325183578
+Spawn Entity with Type(204), Variant(0), Pos(120.00,200.00)
+Spawn Entity with Type(27), Variant(0), Pos(480.00,200.00)
+Spawn Entity with Type(27), Variant(0), Pos(160.00,360.00)
+Spawn Entity with Type(204), Variant(0), Pos(520.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Room 1.270(New Room)
+SpawnRNG seed: 3403129277
+Spawn Entity with Type(211), Variant(0), Pos(120.00,200.00)
+Spawn Entity with Type(211), Variant(0), Pos(520.00,200.00)
+Spawn Entity with Type(211), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(211), Variant(0), Pos(120.00,360.00)
+Spawn Entity with Type(211), Variant(0), Pos(520.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_016_BloodPool.png while in gameplay
+Room 1.300(New Room)
+SpawnRNG seed: 1704957020
+Spawn Entity with Type(240), Variant(0), Pos(80.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(160.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(440.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(480.00,280.00)
+Spawn Entity with Type(240), Variant(0), Pos(560.00,280.00)
+Room 1.258(New Room)
+SpawnRNG seed: 2227582583
+Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(227), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(227), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(227), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+Room 4.9( (copy))
+SpawnRNG seed: 679476200
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+item taken without exchange
+item queue flush
+Adding collectible 264 (Smart Fly)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/familiar/familiar_orbitals_smartfly.png while in gameplay
+Room 1.258(New Room)
+SpawnRNG seed: 2227582583
+music stopped playing
+Room 1.300(New Room)
+SpawnRNG seed: 1704957020
+Room 1.270(New Room)
+SpawnRNG seed: 3403129277
+Room 9.5()
+SpawnRNG seed: 795173499
+Spawn Entity with Type(6), Variant(1), Pos(120.00,200.00)
+Spawn Entity with Type(6), Variant(2), Pos(520.00,200.00)
+Spawn Entity with Type(6), Variant(6), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/familiar/familiar_orbitals_04_haloofflies.png while in gameplay
+Room 1.270(New Room)
+SpawnRNG seed: 3403129277
+Room 1.296(New Room)
+SpawnRNG seed: 3325183578
+Room 1.2(Start Room)
+SpawnRNG seed: 2808477291
+Room 1.122()
+SpawnRNG seed: 3231691377
+Room 1.2(Start Room)
+SpawnRNG seed: 2808477291
+Room 1.296(New Room)
+SpawnRNG seed: 3325183578
+Room 1.270(New Room)
+SpawnRNG seed: 3403129277
+Room 1.277(New Room)
+SpawnRNG seed: 2197445372
+Spawn Entity with Type(217), Variant(0), Pos(320.00,200.00)
+Spawn Entity with Type(217), Variant(0), Pos(280.00,240.00)
+Spawn Entity with Type(217), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(217), Variant(0), Pos(360.00,240.00)
+Spawn Entity with Type(217), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(208), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(217), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(217), Variant(0), Pos(280.00,320.00)
+Spawn Entity with Type(217), Variant(0), Pos(320.00,320.00)
+Spawn Entity with Type(217), Variant(0), Pos(360.00,320.00)
+Spawn Entity with Type(217), Variant(0), Pos(320.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Action PillCard Triggered
+Room 14.3(Devil (Shop) (copy))
+SpawnRNG seed: 3543158164
+Spawn Entity with Type(33), Variant(0), Pos(200.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(5), Variant(150), Pos(320.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+item taken without exchange
+item queue flush
+Adding collectible 216 (Ceremonial Robes)
+Room 1.277(New Room)
+SpawnRNG seed: 2197445372
+Room 1.270(New Room)
+SpawnRNG seed: 3403129277
+Room 1.300(New Room)
+SpawnRNG seed: 1704957020
+Room 1.258(New Room)
+SpawnRNG seed: 2227582583
+Room 1.514(New Room)
+SpawnRNG seed: 3795050517
+Spawn Entity with Type(23), Variant(0), Pos(120.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(440.00,280.00)
+Spawn Entity with Type(23), Variant(0), Pos(520.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.258(New Room)
+SpawnRNG seed: 2227582583
+Room 1.484(New Room)
+SpawnRNG seed: 163954800
+Spawn Entity with Type(240), Variant(0), Pos(280.00,200.00)
+Spawn Entity with Type(240), Variant(0), Pos(360.00,200.00)
+Spawn Entity with Type(240), Variant(0), Pos(280.00,360.00)
+Spawn Entity with Type(240), Variant(0), Pos(360.00,360.00)
+Room 1.223(New Room)
+SpawnRNG seed: 2778513811
+Spawn Entity with Type(220), Variant(0), Pos(320.00,200.00)
+Spawn Entity with Type(217), Variant(0), Pos(120.00,360.00)
+Spawn Entity with Type(217), Variant(0), Pos(160.00,360.00)
+Spawn Entity with Type(217), Variant(0), Pos(480.00,360.00)
+Spawn Entity with Type(217), Variant(0), Pos(520.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 5.5050(Mega Fatty)
+SpawnRNG seed: 270830305
+Spawn Entity with Type(264), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/puke_bullets.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 47 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+Mom clear time: 22320
+Par time: 36000
+item taken without exchange
+item queue flush
+Adding collectible 27 (Wooden Spoon)
+music stopped playing
+Level::Init m_Stage 5, m_AltStage 0 Seed 1882450765
+generate...
+20 rooms in 11 loops
+placing rooms...
+generate...
+20 rooms in 12 loops
+placing rooms...
+Map Generated in 2 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 2591716446
+Room 1.85()
+SpawnRNG seed: 381783586
+Spawn Entity with Type(5), Variant(40), Pos(80.00,160.00)
+Spawn Entity with Type(30), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(42), Variant(0), Pos(120.00,200.00)
+Spawn Entity with Type(42), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(42), Variant(0), Pos(520.00,360.00)
+Spawn Entity with Type(30), Variant(0), Pos(80.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.221(New Room)
+SpawnRNG seed: 3667914588
+Spawn Entity with Type(260), Variant(10), Pos(280.00,280.00)
+Spawn Entity with Type(208), Variant(1), Pos(320.00,280.00)
+Spawn Entity with Type(260), Variant(10), Pos(360.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.215(New Room)
+SpawnRNG seed: 1825601305
+Spawn Entity with Type(241), Variant(0), Pos(480.00,240.00)
+Spawn Entity with Type(241), Variant(0), Pos(160.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_018_LaserEffects.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_050_LaserImpact.png while in gameplay
+Room 1.197(New Room)
+SpawnRNG seed: 1149850494
+Spawn Entity with Type(5), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(5), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(33), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(320.00,320.00)
+Spawn Entity with Type(5), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(5), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 4.3()
+SpawnRNG seed: 3005110322
+Spawn Entity with Type(33), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(5), Variant(100), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+item taken without exchange
+item queue flush
+Adding collectible 223 (Pyromaniac)
+Room 1.197(New Room)
+SpawnRNG seed: 1149850494
+music stopped playing
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Action PillCard Triggered
+Room 1.215(New Room)
+SpawnRNG seed: 1825601305
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.221(New Room)
+SpawnRNG seed: 3667914588
+Room 1.85()
+SpawnRNG seed: 381783586
+Spawn Entity with Type(42), Variant(0), Pos(120.00,200.00)
+Spawn Entity with Type(42), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(42), Variant(0), Pos(520.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 2591716446
+Room 1.14()
+SpawnRNG seed: 1806507269
+Spawn Entity with Type(30), Variant(0), Pos(200.00,240.00)
+Spawn Entity with Type(30), Variant(0), Pos(360.00,240.00)
+Spawn Entity with Type(30), Variant(1), Pos(440.00,240.00)
+Spawn Entity with Type(30), Variant(0), Pos(200.00,320.00)
+Spawn Entity with Type(30), Variant(0), Pos(280.00,320.00)
+Spawn Entity with Type(30), Variant(0), Pos(440.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.2(Start Room)
+SpawnRNG seed: 2591716446
+Room 6.2030(Sloth)
+SpawnRNG seed: 1628332082
+Spawn Entity with Type(46), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_113_Charger.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+MiniBoss 0 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Action PillCard Triggered
+Room 1.2(Start Room)
+SpawnRNG seed: 2591716446
+Room 1.14()
+SpawnRNG seed: 1806507269
+Room 1.2(Start Room)
+SpawnRNG seed: 2591716446
+Room 1.85()
+SpawnRNG seed: 381783586
+Spawn Entity with Type(42), Variant(0), Pos(120.00,200.00)
+Spawn Entity with Type(42), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(42), Variant(0), Pos(520.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.221(New Room)
+SpawnRNG seed: 3667914588
+Room 1.215(New Room)
+SpawnRNG seed: 1825601305
+Room 1.197(New Room)
+SpawnRNG seed: 1149850494
+Room 1.215(New Room)
+SpawnRNG seed: 1825601305
+Room 1.197(New Room)
+SpawnRNG seed: 1149850494
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.215(New Room)
+SpawnRNG seed: 1825601305
+Room 1.221(New Room)
+SpawnRNG seed: 3667914588
+Room 1.37()
+SpawnRNG seed: 4252991601
+Spawn Entity with Type(14), Variant(1), Pos(80.00,160.00)
+Spawn Entity with Type(14), Variant(0), Pos(160.00,200.00)
+Spawn Entity with Type(14), Variant(0), Pos(240.00,240.00)
+Spawn Entity with Type(14), Variant(0), Pos(400.00,320.00)
+Spawn Entity with Type(14), Variant(0), Pos(480.00,360.00)
+Spawn Entity with Type(14), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+Room 1.3()
+SpawnRNG seed: 4213158006
+Spawn Entity with Type(41), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(41), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(41), Variant(0), Pos(360.00,280.00)
+Spawn Entity with Type(41), Variant(0), Pos(440.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Room 1.157(New Room)
+SpawnRNG seed: 2663013830
+Spawn Entity with Type(254), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(254), Variant(0), Pos(360.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.3()
+SpawnRNG seed: 4213158006
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.488(New Room)
+SpawnRNG seed: 2094464042
+Spawn Entity with Type(41), Variant(0), Pos(320.00,200.00)
+Spawn Entity with Type(41), Variant(0), Pos(320.00,240.00)
+Spawn Entity with Type(41), Variant(0), Pos(320.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Room 1.42()
+SpawnRNG seed: 3194067812
+Spawn Entity with Type(33), Variant(0), Pos(200.00,280.00)
+Spawn Entity with Type(5), Variant(40), Pos(320.00,280.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.488(New Room)
+SpawnRNG seed: 2094464042
+Room 1.3()
+SpawnRNG seed: 4213158006
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.488(New Room)
+SpawnRNG seed: 2094464042
+Room 1.42()
+SpawnRNG seed: 3194067812
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/Effect_Ember.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.491(New Room)
+SpawnRNG seed: 3723144921
+Spawn Entity with Type(219), Variant(0), Pos(440.00,240.00)
+Spawn Entity with Type(219), Variant(0), Pos(280.00,280.00)
+Spawn Entity with Type(219), Variant(0), Pos(440.00,320.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 1.162(New Room)
+SpawnRNG seed: 951560364
+Spawn Entity with Type(241), Variant(0), Pos(120.00,160.00)
+Spawn Entity with Type(241), Variant(0), Pos(520.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_018_LaserEffects.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_050_LaserImpact.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+Room 5.5060(The Cage)
+SpawnRNG seed: 3396698565
+Spawn Entity with Type(265), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/puke_bullets.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 48 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_052_Dust Cloud.png while in gameplay
+Mom clear time: 30277
+Par time: 36000
+item taken without exchange
+item queue flush
+Adding collectible 196 (Squeezy)
+music stopped playing
+Room 14.6(Devil (Shop) (copy))
+SpawnRNG seed: 2824312564
+Spawn Entity with Type(33), Variant(0), Pos(200.00,200.00)
+Spawn Entity with Type(33), Variant(0), Pos(440.00,200.00)
+Spawn Entity with Type(5), Variant(10), Pos(240.00,320.00)
+Spawn Entity with Type(5), Variant(150), Pos(320.00,320.00)
+Spawn Entity with Type(5), Variant(10), Pos(400.00,320.00)
+item taken without exchange
+item queue flush
+Adding collectible 268 (Rotten Baby)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/characters/costumes/costume_268_rottenbaby.png while in gameplay
+Room 5.5060(The Cage)
+SpawnRNG seed: 3396698565
+Mom clear time: 30579
+Par time: 36000
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/familiar/familiar_other_06_attackflies.png while in gameplay
+Level::Init m_Stage 6, m_AltStage 0 Seed 1815451154
+generate...
+20 rooms in 12 loops
+placing rooms...
+Map Generated in 1 Loops
+Room 1.2(Start Room)
+SpawnRNG seed: 1303814068
+Room 1.252(New Room)
+SpawnRNG seed: 3218793534
+Spawn Entity with Type(33), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(33), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(241), Variant(0), Pos(160.00,360.00)
+Spawn Entity with Type(241), Variant(0), Pos(280.00,360.00)
+Spawn Entity with Type(241), Variant(0), Pos(360.00,360.00)
+Spawn Entity with Type(241), Variant(0), Pos(480.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_018_LaserEffects.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Effect_050_LaserImpact.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+Room 1.400(New Room)
+SpawnRNG seed: 2239004146
+Spawn Entity with Type(28), Variant(0), Pos(560.00,280.00)
+Spawn Entity with Type(28), Variant(0), Pos(600.00,280.00)
+Spawn Entity with Type(28), Variant(0), Pos(640.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_113_Charger.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+TriggerBossDeath: 0 bosses remaining.
+deathspawn_boss, color idx -1
+Boss 3 added to SaveState
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_077_LargeBloodExplosion.png while in gameplay
+Action PillCard Triggered
+Room 1.207(New Room)
+SpawnRNG seed: 855241427
+Spawn Entity with Type(208), Variant(1), Pos(480.00,200.00)
+Spawn Entity with Type(226), Variant(1), Pos(440.00,240.00)
+Spawn Entity with Type(226), Variant(1), Pos(440.00,320.00)
+Spawn Entity with Type(208), Variant(1), Pos(480.00,360.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/effects/Effect_Fart.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/rebirth/monster_209_blubber.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/rebirth/monster_210_halfsack.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_122_Host.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Effects/Worms.png while in gameplay
+Room 1.282(New Room)
+SpawnRNG seed: 1234562516
+Spawn Entity with Type(5), Variant(70), Pos(200.00,200.00)
+Spawn Entity with Type(6), Variant(2), Pos(320.00,200.00)
+Spawn Entity with Type(5), Variant(70), Pos(440.00,200.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 1.225(New Room)
+SpawnRNG seed: 1911518632
+Spawn Entity with Type(212), Variant(0), Pos(80.00,160.00)
+Spawn Entity with Type(212), Variant(0), Pos(560.00,160.00)
+Spawn Entity with Type(217), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(212), Variant(0), Pos(80.00,400.00)
+Spawn Entity with Type(212), Variant(0), Pos(560.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+Room 1.277(New Room)
+SpawnRNG seed: 301961136
+Spawn Entity with Type(252), Variant(0), Pos(320.00,280.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Room 5.1060(Mom)
+SpawnRNG seed: 3144648593
+Spawn Entity with Type(45), Variant(0), Pos(320.00,160.00)
+Spawn Entity with Type(45), Variant(0), Pos(80.00,280.00)
+Spawn Entity with Type(45), Variant(0), Pos(320.00,280.00)
+Spawn Entity with Type(45), Variant(0), Pos(560.00,280.00)
+Spawn Entity with Type(45), Variant(0), Pos(320.00,400.00)
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/monsters/Classic/Monster_000_Bodies02.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/grid/rocks_basement.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_010_Fly.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/Monsters/Classic/Monster_065_Clotty.png while in gameplay
+[warn] AnmCache::PreloadImage: Preloading resources/gfx/lost_contact_tears.png while in gameplay
+Total entity spawn time: 9467 ms
+Total ANM2 loading time: 239 ms
+AnmCache memory usage: 9216256 bytes in 790 entries.
+CPU time spent on enemy queries: 0.48 seconds.
+CPU time spent on enemy queries: 0.48 seconds.
