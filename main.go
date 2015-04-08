@@ -78,7 +78,7 @@ func main() {
 func addToRunData(id string) {
 	for _, element := range Data {
 		if element.ID == id {
-			LastItem.resetLastItem()
+			LastItem = LastItemStat{}
 			if element.Tears != "" {
 				tears, err := strconv.ParseFloat(element.Tears, 64)
 				LastItem.Tears = tears
@@ -243,19 +243,6 @@ func fixGui() {
 	)
 }
 
-func (lastItem LastItemStat) resetLastItem() {
-	lastItem.Tears = 0
-	lastItem.Delay = 0
-	lastItem.DelayMultiplier = 0
-	lastItem.Range = 0
-	lastItem.Height = 0
-	lastItem.Damage = 0
-	lastItem.DamageMultiplier = 0
-	lastItem.Speed = 0
-	lastItem.Description = ""
-	lastItem.Name = ""
-}
-
 func processLine(line string) {
 	if strings.HasPrefix(line, "RNG Start Seed") {
 		splitSeed := strings.Split(line, " ")
@@ -269,9 +256,11 @@ func processLine(line string) {
 		Run.DamageMultiplier = 0
 		Run.Speed = 0
 		Run.ItemIDs = make([]string, 0)
+		LastItem = LastItemStat{}
 	}
 
 	if strings.HasPrefix(line, "Adding collectible") {
+		LastItem = LastItemStat{}
 		collectibleSplit := strings.Split(line, " ")
 		collectibleID := collectibleSplit[2]
 		Run.ItemIDs = append(Run.ItemIDs, collectibleID)
