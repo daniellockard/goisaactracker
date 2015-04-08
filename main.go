@@ -171,7 +171,7 @@ func gui() {
 		SpeedLabel,
 		LastItemLabel)
 
-	Window = ui.NewWindow("Binding of Isaac Item Tracker", 900, 175, stack)
+	Window = ui.NewWindow("Binding of Isaac Item Tracker", 1200, 175, stack)
 
 	Window.OnClosing(func() bool {
 		ui.Stop()
