@@ -62,7 +62,6 @@ var Data ItemData
 var Run RunData
 var LastItem LastItemStat
 var Window ui.Window
-var LineNo int
 
 func main() {
 
