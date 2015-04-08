@@ -27,6 +27,7 @@ type ItemData []struct {
 	DamageMultiplier string `json:"damagex,omitempty"`
 	Speed            string `json:"speed,omitempty"`
 	Health           string `json:"health,omitempty"`
+	Luck			 string `json:"luck,omitempty"`
 	Space            bool   `json:"space,omitempty"`
 	SoulHearts       string `json:"soulhearts,omitempty"`
 	ID               string `json:"id"`
@@ -42,6 +43,7 @@ type RunData struct {
 	Damage           float64
 	DamageMultiplier float64
 	Speed            float64
+	Luck			 int
 	ItemIDs          []string
 }
 
@@ -55,11 +57,13 @@ type LastItemStat struct {
 	Damage           float64
 	DamageMultiplier float64
 	Speed            float64
+	Hearts			 int
+	SoulHearts		 int
+	Luck			 int
 	Description      string
 }
 
-
-var SeedLabel, TearsLabel, DelayLabel, DelayMultLabel, RangeLabel, DamageLabel, DamageMultLabel, SpeedLabel, LastItemLabel ui.Label
+var SeedLabel, TearsLabel, DelayLabel, DelayMultLabel, RangeLabel, DamageLabel, DamageMultLabel, SpeedLabel, LuckLabel, LastItemLabel ui.Label
 var Data ItemData
 var Run RunData
 var LastItem LastItemStat
@@ -145,8 +149,16 @@ func addToRunData(id string) {
 				}
 				Run.Speed += speed
 			}
+			if element.Luck != "" {
+				luck, err := strconv.Atoi(element.Luck)
+				LastItem.Luck = luck
+				if err != nil {
+					log.Fatal(err)
+				}
+				Run.Luck += luck
+			}
 			if element.Text != "" {
-				LastItem.Description = element.Text 
+				LastItem.Description = element.Text
 			}
 			LastItem.Name = element.Name
 			break
@@ -163,6 +175,7 @@ func gui() {
 	DamageLabel = ui.NewLabel("Damage")
 	DamageMultLabel = ui.NewLabel("Damage Multiplier")
 	SpeedLabel = ui.NewLabel("Speed")
+	LuckLabel = ui.NewLabel("Luck")
 	LastItemLabel = ui.NewLabel("Last Item Info")
 
 	stack := ui.NewVerticalStack(
@@ -174,9 +187,10 @@ func gui() {
 		DamageLabel,
 		DamageMultLabel,
 		SpeedLabel,
+		LuckLabel,
 		LastItemLabel)
 
-	Window = ui.NewWindow("Binding of Isaac Item Tracker", 1200, 175, stack)
+	Window = ui.NewWindow("Binding of Isaac Item Tracker", 1200, 200, stack)
 
 	Window.OnClosing(func() bool {
 		ui.Stop()
@@ -235,23 +249,16 @@ func fixGui() {
 	DamageLabel.SetText(fmt.Sprintf("Damage: %.2f", Run.Damage))
 	DamageMultLabel.SetText(fmt.Sprintf("Damage Multiplier: %.2f", Run.DamageMultiplier))
 	SpeedLabel.SetText(fmt.Sprintf("Speed: %.2f", Run.Speed))
+	LuckLabel.SetText(fmt.Sprintf("Luck: %d", Run.Luck))
 	LastItemLabel.SetText(buildItemDescription())
 }
 
 func processLine(line string) {
 	if strings.HasPrefix(line, "RNG Start Seed") {
 		splitSeed := strings.Split(line, " ")
-		Run.Seed = strings.Join(splitSeed[3:5], " ")
-		Run.Tears = 0
-		Run.Delay = 0
-		Run.DelayMultiplier = 0
-		Run.Range = 0
-		Run.Height = 0
-		Run.Damage = 0
-		Run.DamageMultiplier = 0
-		Run.Speed = 0
-		Run.ItemIDs = make([]string, 0)
+		Run = RunData{}
 		LastItem = LastItemStat{}
+		Run.Seed = strings.Join(splitSeed[3:5], " ")
 	}
 
 	if strings.HasPrefix(line, "Adding collectible") {
@@ -293,6 +300,9 @@ func buildItemDescription() string {
 	if LastItem.Speed != 0 {
 		buffer.WriteString(fmt.Sprintf("Speed: %.2f, ", LastItem.Speed))
 	}
+	if LastItem.Luck != 0 {
+		buffer.WriteString(fmt.Sprintf("Luck: %d, ", LastItem.Luck))
+	}
 
 	constructedString := buffer.String()
 	if strings.HasSuffix(constructedString, ", ") {
@@ -302,6 +312,10 @@ func buildItemDescription() string {
 	if strings.HasSuffix(constructedString, "and it gave you ") {
 		constructedString = constructedString + "nothing"
 	}
-	return constructedString
+	if LastItem.Name == "" {
+		return ""
+	} else {
+		return constructedString
+	}
 
 }

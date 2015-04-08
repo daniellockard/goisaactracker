@@ -4,7 +4,7 @@
       "shown":true,
       "tears":"0.7",
       "text":"",
-      "id":"001"
+      "id":"1"
    },
    {
       "delay":"3",
@@ -12,13 +12,13 @@
       "name":"The Inner Eye",
       "shown":true,
       "text":"",
-      "id":"002"
+      "id":"2"
    },
    {
       "name":"Spoon Bender",
       "shown":true,
       "text":"",
-      "id":"003"
+      "id":"3"
    },
    {
       "dmg":"0.5",
@@ -26,7 +26,7 @@
       "name":"Cricket's Head",
       "shown":true,
       "text":"",
-      "id":"004"
+      "id":"4"
    },
    {
       "height":"1",
@@ -34,7 +34,7 @@
       "range":"1.5",
       "shown":true,
       "text":"Boomerang Tears",
-      "id":"005"
+      "id":"5"
    },
    {
       "height":"0.45",
@@ -43,38 +43,38 @@
       "shown":true,
       "tears":"1.5",
       "text":"",
-      "id":"006"
+      "id":"6"
    },
    {
       "dmg":"1",
       "name":"Blood of the Martyr",
       "shown":true,
       "text":"",
-      "id":"007"
+      "id":"7"
    },
    {
       "name":"Brother Bobby",
       "shown":true,
       "text":"",
-      "id":"008"
+      "id":"8"
    },
    {
       "name":"Skatole",
       "shown":true,
       "text":"",
-      "id":"009"
+      "id":"9"
    },
    {
       "name":"Halo of Flies",
       "shown":true,
       "text":"",
-      "id":"010"
+      "id":"10"
    },
    {
       "name":"1UP",
       "shown":true,
       "text":"",
-      "id":"011"
+      "id":"11"
    },
    {
       "dmg":"0.3",
@@ -86,13 +86,13 @@
       "shown":true,
       "speed":"0.3",
       "text":"",
-      "id":"012"
+      "id":"12"
    },
    {
       "name":"The Virus",
       "shown":true,
       "text":"",
-      "id":"013"
+      "id":"13"
    },
    {
       "height":"0.5",
@@ -101,98 +101,98 @@
       "shown":true,
       "speed":"0.6",
       "text":"",
-      "id":"014"
+      "id":"14"
    },
    {
       "name":"<3",
       "shown":false,
       "text":"",
-      "id":"015"
+      "id":"15"
    },
    {
       "health":"2",
       "name":"Raw Liver",
       "shown":false,
       "text":"Full Heal",
-      "id":"016"
+      "id":"16"
    },
    {
       "name":"Skeleton Key",
       "shown":true,
       "text":"",
-      "id":"017"
+      "id":"17"
    },
    {
       "name":"A Dollar",
       "shown":true,
       "text":"",
-      "id":"018"
+      "id":"18"
    },
    {
       "name":"Boom!",
       "shown":true,
       "text":"",
-      "id":"019"
+      "id":"19"
    },
    {
       "name":"Transcendence",
       "shown":true,
       "text":"",
-      "id":"020"
+      "id":"20"
    },
    {
       "name":"The Compass",
       "shown":true,
       "text":"",
-      "id":"021"
+      "id":"21"
    },
    {
       "name":"Lunch",
       "shown":false,
       "text":"",
-      "id":"022"
+      "id":"22"
    },
    {
       "health":"1",
       "name":"Dinner",
       "shown":false,
       "text":"",
-      "id":"023"
+      "id":"23"
    },
    {
       "health":"1",
       "name":"Dessert",
       "shown":false,
       "text":"",
-      "id":"024"
+      "id":"24"
    },
    {
       "health":"1",
       "name":"Breakfast",
       "shown":false,
       "text":"",
-      "id":"025"
+      "id":"25"
    },
    {
       "health":"1",
       "name":"Rotten Meat",
       "shown":false,
       "text":"",
-      "id":"026"
+      "id":"26"
    },
    {
       "name":"Wooden Spoon",
       "shown":true,
       "speed":"0.3",
       "text":"",
-      "id":"027"
+      "id":"27"
    },
    {
       "name":"The Belt",
       "shown":true,
       "speed":"0.3",
       "text":"",
-      "id":"028"
+      "id":"28"
    },
    {
       "height":"0.5",
@@ -200,7 +200,7 @@
       "range":"5.25",
       "shown":true,
       "text":"",
-      "id":"029"
+      "id":"29"
    },
    {
       "height":"0.5",
@@ -208,7 +208,7 @@
       "range":"5.25",
       "shown":true,
       "text":"",
-      "id":"030"
+      "id":"30"
    },
    {
       "height":"0.5",
@@ -216,139 +216,139 @@
       "range":"5.25",
       "shown":true,
       "text":"",
-      "id":"031"
+      "id":"31"
    },
    {
       "name":"Wire Coat Hanger",
       "shown":true,
       "tears":"0.7",
       "text":"",
-      "id":"032"
+      "id":"32"
    },
    {
       "name":"The Bible",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"033"
+      "id":"33"
    },
    {
       "name":"The Book of Belial",
       "shown":false,
       "text":"2 dmg, x1.5 dmg with blood of the martyr",
       "space":true,
-      "id":"034"
+      "id":"34"
    },
    {
       "name":"The Necronomicon",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"035"
+      "id":"35"
    },
    {
       "name":"The Poop",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"036"
+      "id":"36"
    },
    {
       "name":"Mr. Boom",
       "shown":false,
       "text":"110 dmg",
       "space":true,
-      "id":"037"
+      "id":"37"
    },
    {
       "name":"Tammy's Head",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"038"
+      "id":"38"
    },
    {
       "name":"Mom's Bra",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"039"
+      "id":"39"
    },
    {
       "name":"Kamikaze",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"040"
+      "id":"40"
    },
    {
       "name":"Mom's Pad:",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"041"
+      "id":"41"
    },
    {
       "name":"Bob's Rotten Head",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"042"
+      "id":"42"
    },
    {
       "name":"Teleport",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"044"
+      "id":"44"
    },
    {
       "name":"Yum Heart",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"045"
+      "id":"45"
    },
    {
       "luck":"1",
       "name":"Lucky Foot",
       "shown":true,
       "text":"Other luck-related benefits",
-      "id":"046"
+      "id":"46"
    },
    {
       "name":"Doctor's Remote",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"047"
+      "id":"47"
    },
    {
       "name":"Cupid's Arrow",
       "shown":true,
       "text":"",
-      "id":"048"
+      "id":"48"
    },
    {
       "name":"Shoop Da Whoop",
       "shown":false,
       "text":"full laser deals damage stat * 7 dmg",
       "space":true,
-      "id":"049"
+      "id":"49"
    },
    {
       "dmg":"1",
       "name":"Steven",
       "shown":true,
       "text":"",
-      "id":"050"
+      "id":"50"
    },
    {
       "dmg":"1",
       "name":"Pentagram",
       "shown":true,
       "text":"",
-      "id":"051"
+      "id":"51"
    },
    {
       "delayx":"2.5",
@@ -356,101 +356,101 @@
       "name":"Dr. Fetus",
       "shown":true,
       "text":"Bomb shots",
-      "id":"052"
+      "id":"52"
    },
    {
       "name":"Magneto",
       "shown":true,
       "text":"",
-      "id":"053"
+      "id":"53"
    },
    {
       "name":"Treasure Map",
       "shown":true,
       "text":"",
-      "id":"054"
+      "id":"54"
    },
    {
       "name":"Mom's Eye",
       "shown":true,
       "text":"",
-      "id":"055"
+      "id":"55"
    },
    {
       "name":"Lemon Mishap",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"056"
+      "id":"56"
    },
    {
       "name":"Distant Admiration",
       "shown":true,
       "text":"",
-      "id":"057"
+      "id":"57"
    },
    {
       "name":"Book of Shadows",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"058"
+      "id":"58"
    },
    {
       "name":"The Ladder",
       "shown":true,
       "text":"",
-      "id":"060"
+      "id":"60"
    },
    {
       "name":"Charm of the Vampire",
       "shown":true,
       "text":"",
-      "id":"062"
+      "id":"62"
    },
    {
       "name":"The Battery",
       "shown":true,
       "text":"",
-      "id":"063"
+      "id":"63"
    },
    {
       "name":"Steam Sale",
       "shown":true,
       "text":"",
-      "id":"064"
+      "id":"64"
    },
    {
       "name":"Anarchist's Cookbook",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"065"
+      "id":"65"
    },
    {
       "name":"The Hourglass",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"066"
+      "id":"66"
    },
    {
       "name":"Sister Maggy",
       "shown":true,
       "text":"3.5 dmg",
-      "id":"067"
+      "id":"67"
    },
    {
       "name":"Technology",
       "shown":true,
       "text":"",
-      "id":"068"
+      "id":"68"
    },
    {
       "name":"Chocolate Milk",
       "shown":true,
       "text":"charge tears, max is 4x dmg",
-      "id":"069"
+      "id":"69"
    },
    {
       "dmg":"1",
@@ -458,7 +458,7 @@
       "shown":true,
       "speed":"0.4",
       "text":"",
-      "id":"070"
+      "id":"70"
    },
    {
       "height":"1.5",
@@ -467,52 +467,52 @@
       "shown":true,
       "speed":"0.3",
       "text":"",
-      "id":"071"
+      "id":"71"
    },
    {
       "name":"Rosary",
       "shown":true,
       "soulhearts":"3",
       "text":"puts the bible into lots of item pools",
-      "id":"072"
+      "id":"72"
    },
    {
       "name":"Cube of Meat",
       "shown":true,
       "text":"",
-      "id":"073"
+      "id":"73"
    },
    {
       "name":"A Quarter",
       "shown":true,
       "text":"",
-      "id":"074"
+      "id":"74"
    },
    {
       "name":"PhD",
       "shown":true,
       "text":"",
-      "id":"075"
+      "id":"75"
    },
    {
       "name":"X-Ray Vision",
       "shown":true,
       "text":"",
-      "id":"076"
+      "id":"76"
    },
    {
       "name":"My Little Unicorn",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"077"
+      "id":"77"
    },
    {
       "name":"Book of Revelations",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"078"
+      "id":"78"
    },
    {
       "dmg":"1",
@@ -520,7 +520,7 @@
       "shown":true,
       "speed":"0.2",
       "text":"",
-      "id":"079"
+      "id":"79"
    },
    {
       "dmg":"0.5",
@@ -528,19 +528,19 @@
       "shown":true,
       "tears":"0.7",
       "text":"2 Soul Hearts",
-      "id":"080"
+      "id":"80"
    },
    {
       "name":"Dead Cat",
       "shown":true,
       "text":"",
-      "id":"081"
+      "id":"81"
    },
    {
       "name":"Lord of the Pit",
       "shown":true,
       "text":"",
-      "id":"082"
+      "id":"82"
    },
    {
       "dmg":"0.7",
@@ -549,59 +549,59 @@
       "speed":"-0.18",
       "text":"+1 soul heart, crush rocks",
       "space":true,
-      "id":"083"
+      "id":"83"
    },
    {
       "name":"We Need To Go Deeper",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"084"
+      "id":"84"
    },
    {
       "name":"Deck of Cards",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"085"
+      "id":"85"
    },
    {
       "name":"Monstro's Tooth",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"086"
+      "id":"86"
    },
    {
       "name":"Loki's Horns",
       "shown":true,
       "text":"",
-      "id":"087"
+      "id":"87"
    },
    {
       "name":"Little Chubby",
       "shown":true,
       "text":"",
-      "id":"088"
+      "id":"88"
    },
    {
       "name":"Spider Bite",
       "shown":true,
       "text":"based on luck",
-      "id":"089"
+      "id":"89"
    },
    {
       "dmg":"1",
       "name":"The Small Rock",
       "shown":true,
       "text":"",
-      "id":"090"
+      "id":"90"
    },
    {
       "name":"Spelunker Hat",
       "shown":true,
       "text":"",
-      "id":"091"
+      "id":"91"
    },
    {
       "health":"1",
@@ -609,51 +609,51 @@
       "shown":true,
       "soulhearts":"2",
       "text":"",
-      "id":"092"
+      "id":"92"
    },
    {
       "name":"The Gamekid",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"093"
+      "id":"93"
    },
    {
       "name":"Sack of Pennies",
       "shown":true,
       "text":"",
-      "id":"094"
+      "id":"94"
    },
    {
       "name":"Robo-Baby",
       "shown":true,
       "text":"3.5 dmg",
-      "id":"095"
+      "id":"95"
    },
    {
       "name":"Little C.H.A.D.",
       "shown":true,
       "text":"",
-      "id":"096"
+      "id":"96"
    },
    {
       "name":"The Book of Sin",
       "shown":false,
       "text":"",
       "space":true,
-      "id":"097"
+      "id":"97"
    },
    {
       "name":"The Relic",
       "shown":true,
       "text":"",
-      "id":"098"
+      "id":"98"
    },
    {
       "name":"Little Gish",
       "shown":true,
       "text":"3.5 dmg",
-      "id":"099"
+      "id":"99"
    },
    {
       "name":"Little Steven",
