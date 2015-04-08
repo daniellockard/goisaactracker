@@ -1,14 +1,16 @@
 package main
 
 import (
+	"bufio"
 	"encoding/json"
 	"fmt"
-	"github.com/ActiveState/tail"
 	"github.com/andlabs/ui"
 	"io/ioutil"
 	"log"
+	"os"
 	"strconv"
 	"strings"
+	"time"
 )
 
 type ItemData []struct {
@@ -59,6 +61,8 @@ var SeedLabel, TearsLabel, DelayLabel, DelayMultLabel, RangeLabel, DamageLabel, 
 var Data ItemData
 var Run RunData
 var LastItem LastItemStat
+var Window ui.Window
+var LineNo int
 
 func main() {
 
@@ -168,14 +172,14 @@ func gui() {
 		SpeedLabel,
 		LastItemLabel)
 
-	w := ui.NewWindow("Binding of Isaac Item Tracker", 1080, 350, stack)
+	Window = ui.NewWindow("Binding of Isaac Item Tracker", 900, 175, stack)
 
-	w.OnClosing(func() bool {
+	Window.OnClosing(func() bool {
 		ui.Stop()
 		return true
 	})
 
-	w.Show()
+	Window.Show()
 }
 
 func processData() {
@@ -187,39 +191,39 @@ func processData() {
 	if err := json.Unmarshal(ItemsJson, &Data); err != nil {
 		log.Fatal(err)
 	}
+	ticker := time.NewTicker(time.Millisecond * 500)
+	go func() {
+		for _ = range ticker.C {
+			lines, err := readLines()
+			if err != nil {
+				log.Fatal(err)
+			}
+			for _, element := range lines {
+				processLine(element)
+			}
+			ui.Do(fixGui)
+		}
+	}()
 
-	logTail, err := tail.TailFile("/Users/danny/Library/Application Support/Binding of Isaac Rebirth/log.txt", tail.Config{Follow: true, ReOpen: true})
+}
+
+func readLines() ([]string, error) {
+	file, err := os.Open("log.txt")
 	if err != nil {
-		log.Fatal(err)
+		return nil, err
 	}
+	defer file.Close()
 
-	for line := range logTail.Lines {
-		ui.Do(fixGui)
-		if strings.HasPrefix(line.Text, "RNG Start Seed") {
-			splitSeed := strings.Split(line.Text, " ")
-			Run.Seed = strings.Join(splitSeed[3:5], " ")
-			Run.Tears = 0
-			Run.Delay = 0
-			Run.DelayMultiplier = 0
-			Run.Range = 0
-			Run.Height = 0
-			Run.Damage = 0
-			Run.DamageMultiplier = 0
-			Run.Speed = 0
-			Run.ItemIDs = make([]string, 0)
-		}
-
-		if strings.HasPrefix(line.Text, "Adding collectible") {
-			collectibleSplit := strings.Split(line.Text, " ")
-			collectibleID := collectibleSplit[2]
-			Run.ItemIDs = append(Run.ItemIDs, collectibleID)
-			addToRunData(collectibleID)
-		}
+	var lines []string
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		lines = append(lines, scanner.Text())
 	}
+	return lines, scanner.Err()
 }
 
 func fixGui() {
-	SeedLabel.SetText(Run.Seed)
+	SeedLabel.SetText(fmt.Sprintf("Seed: %s", Run.Seed))
 	TearsLabel.SetText(fmt.Sprintf("Tear Rate: %.2f", Run.Tears))
 	DelayLabel.SetText(fmt.Sprintf("Tear Delay: %.2f", Run.Delay))
 	DelayMultLabel.SetText(fmt.Sprintf("Tear Delay Multiplier: %.2f", Run.DelayMultiplier))
@@ -251,4 +255,27 @@ func (lastItem LastItemStat) resetLastItem() {
 	lastItem.Speed = 0
 	lastItem.Description = ""
 	lastItem.Name = ""
+}
+
+func processLine(line string) {
+	if strings.HasPrefix(line, "RNG Start Seed") {
+		splitSeed := strings.Split(line, " ")
+		Run.Seed = strings.Join(splitSeed[3:5], " ")
+		Run.Tears = 0
+		Run.Delay = 0
+		Run.DelayMultiplier = 0
+		Run.Range = 0
+		Run.Height = 0
+		Run.Damage = 0
+		Run.DamageMultiplier = 0
+		Run.Speed = 0
+		Run.ItemIDs = make([]string, 0)
+	}
+
+	if strings.HasPrefix(line, "Adding collectible") {
+		collectibleSplit := strings.Split(line, " ")
+		collectibleID := collectibleSplit[2]
+		Run.ItemIDs = append(Run.ItemIDs, collectibleID)
+		addToRunData(collectibleID)
+	}
 }
