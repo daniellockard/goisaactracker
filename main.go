@@ -2,6 +2,7 @@ package main
 
 import (
 	"bufio"
+	"bytes"
 	"encoding/json"
 	"fmt"
 	"github.com/andlabs/ui"
@@ -56,6 +57,7 @@ type LastItemStat struct {
 	Speed            float64
 	Description      string
 }
+
 
 var SeedLabel, TearsLabel, DelayLabel, DelayMultLabel, RangeLabel, DamageLabel, DamageMultLabel, SpeedLabel, LastItemLabel ui.Label
 var Data ItemData
@@ -142,6 +144,9 @@ func addToRunData(id string) {
 					log.Fatal(err)
 				}
 				Run.Speed += speed
+			}
+			if element.Text != "" {
+				LastItem.Description = element.Text 
 			}
 			LastItem.Name = element.Name
 			break
@@ -230,17 +235,7 @@ func fixGui() {
 	DamageLabel.SetText(fmt.Sprintf("Damage: %.2f", Run.Damage))
 	DamageMultLabel.SetText(fmt.Sprintf("Damage Multiplier: %.2f", Run.DamageMultiplier))
 	SpeedLabel.SetText(fmt.Sprintf("Speed: %.2f", Run.Speed))
-	LastItemLabel.SetText(fmt.Sprintf("Last Item was %s and gave you: %.2f Tear Rate, %.2f Tear Delay, %.2f Tear Delay Multiplier, %.2f Range,%.2f Height, %.2f Damage, %.2f Damage Multiplier, %.2f Speed",
-		LastItem.Name,
-		LastItem.Tears,
-		LastItem.Delay,
-		LastItem.DelayMultiplier,
-		LastItem.Range,
-		LastItem.Height,
-		LastItem.Damage,
-		LastItem.DamageMultiplier,
-		LastItem.Speed),
-	)
+	LastItemLabel.SetText(buildItemDescription())
 }
 
 func processLine(line string) {
@@ -260,10 +255,53 @@ func processLine(line string) {
 	}
 
 	if strings.HasPrefix(line, "Adding collectible") {
-		LastItem = LastItemStat{}
 		collectibleSplit := strings.Split(line, " ")
 		collectibleID := collectibleSplit[2]
 		Run.ItemIDs = append(Run.ItemIDs, collectibleID)
 		addToRunData(collectibleID)
 	}
+}
+
+func buildItemDescription() string {
+	var buffer bytes.Buffer
+	buffer.WriteString(fmt.Sprintf("The last item was %s ", LastItem.Name))
+	if LastItem.Description != "" {
+		buffer.WriteString(fmt.Sprintf("(%s) ", LastItem.Description))
+	}
+	buffer.WriteString("and it gave you ")
+	if LastItem.Tears != 0 {
+		buffer.WriteString(fmt.Sprintf("Tears: %.2f, ", LastItem.Tears))
+	}
+	if LastItem.Delay != 0 {
+		buffer.WriteString(fmt.Sprintf("Tear Delay: %.2f, ", LastItem.Delay))
+	}
+	if LastItem.DelayMultiplier != 0 {
+		buffer.WriteString(fmt.Sprintf("Tear Delay Multiplier: %.2f, ", LastItem.DelayMultiplier))
+	}
+	if LastItem.Range != 0 {
+		buffer.WriteString(fmt.Sprintf("Range: %.2f, ", LastItem.Range))
+	}
+	if LastItem.Height != 0 {
+		buffer.WriteString(fmt.Sprintf("Height: %.2f, ", LastItem.Height))
+	}
+	if LastItem.Damage != 0 {
+		buffer.WriteString(fmt.Sprintf("Damage: %.2f, ", LastItem.Damage))
+	}
+	if LastItem.DamageMultiplier != 0 {
+		buffer.WriteString(fmt.Sprintf("Damage Multiplier: %.2f, ", LastItem.DamageMultiplier))
+	}
+	if LastItem.Speed != 0 {
+		buffer.WriteString(fmt.Sprintf("Speed: %.2f, ", LastItem.Speed))
+	}
+
+	constructedString := buffer.String()
+	if strings.HasSuffix(constructedString, ", ") {
+		constructedString = constructedString[:len(constructedString)-2]
+	}
+
+	if strings.HasSuffix(constructedString, "and it gave you ") {
+		constructedString = constructedString + "nothing"
+	}
+	return constructedString
+
 }
