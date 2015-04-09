@@ -27,7 +27,7 @@ type ItemData []struct {
 	DamageMultiplier string `json:"damagex,omitempty"`
 	Speed            string `json:"speed,omitempty"`
 	Health           string `json:"health,omitempty"`
-	Luck			 string `json:"luck,omitempty"`
+	Luck             string `json:"luck,omitempty"`
 	Space            bool   `json:"space,omitempty"`
 	SoulHearts       string `json:"soulhearts,omitempty"`
 	ID               string `json:"id"`
@@ -43,7 +43,7 @@ type RunData struct {
 	Damage           float64
 	DamageMultiplier float64
 	Speed            float64
-	Luck			 int
+	Luck             int
 	ItemIDs          []string
 }
 
@@ -57,9 +57,9 @@ type LastItemStat struct {
 	Damage           float64
 	DamageMultiplier float64
 	Speed            float64
-	Hearts			 int
-	SoulHearts		 int
-	Luck			 int
+	Health           int
+	SoulHearts       int
+	Luck             int
 	Description      string
 }
 
@@ -157,6 +157,14 @@ func addToRunData(id string) {
 				}
 				Run.Luck += luck
 			}
+			if element.Health != "" {
+				health, err := strconv.Atoi(element.Health)
+				LastItem.Health = health
+				if err != nil {
+					log.Fatal(err)
+				}
+			}
+
 			if element.Text != "" {
 				LastItem.Description = element.Text
 			}
@@ -302,6 +310,12 @@ func buildItemDescription() string {
 	}
 	if LastItem.Luck != 0 {
 		buffer.WriteString(fmt.Sprintf("Luck: %d, ", LastItem.Luck))
+	}
+	if LastItem.Health != 0 {
+		buffer.WriteString(fmt.Sprintf("Red Hearts: %d, ", LastItem.Health))
+	}
+	if LastItem.SoulHearts != 0 {
+		buffer.WriteString(fmt.Sprintf("Soul Hearts: %d, ", LastItem.SoulHearts))
 	}
 
 	constructedString := buffer.String()
